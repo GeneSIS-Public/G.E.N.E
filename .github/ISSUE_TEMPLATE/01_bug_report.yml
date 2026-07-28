@@ -1,0 +1,148 @@
+name: "Technical Bug Report"
+description: "Report a reproducible technical problem in G.E.N.E Alpha v1.0."
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a technical problem.
+
+        GitHub Issues are public. Do not include private dialogue history, Persona information, purchase or Founder information, passwords, authentication codes, API keys, private keys, or unredacted logs containing personal information.
+
+        Do not report an unpatched vulnerability here. Use the private route described in the Security Policy.
+
+  - type: checkboxes
+    id: public-safety
+    attributes:
+      label: "Public-report confirmation"
+      options:
+        - label: "I searched the existing Issues and did not find the same report."
+          required: true
+        - label: "I confirm that this report contains no private, purchase, Founder, authentication, or other sensitive information."
+          required: true
+        - label: "I confirm that this is not an unpatched vulnerability or another non-public Security matter."
+          required: true
+        - label: "I reviewed the Release Information, Known Limitations, and Contact and Support documents."
+          required: true
+
+  - type: dropdown
+    id: release
+    attributes:
+      label: "G.E.N.E release"
+      description: "Select the release associated with the problem."
+      options:
+        - "G.E.N.E Alpha v1.0"
+        - "Other or unknown"
+    validations:
+      required: true
+
+  - type: input
+    id: build
+    attributes:
+      label: "Build identifier"
+      description: "Enter the Build identifier. If it cannot be confirmed, enter Unknown."
+      placeholder: "G.E.N.E_Alpha_v1.0_R10-4D-4_Build-005 or Unknown"
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: "Problem summary"
+      description: "Describe the problem in one clear paragraph."
+      placeholder: "What happened, and what part of G.E.N.E was affected?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Steps to reproduce"
+      description: "List the smallest reliable sequence that reproduces the problem."
+      placeholder: |
+        1. Start G.E.N.E.
+        2. Connect to ...
+        3. Select ...
+        4. Observe ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Expected behavior"
+      description: "What did you expect to happen?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: "Actual behavior"
+      description: "What happened instead?"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: "Reproduction frequency"
+      options:
+        - "Every time"
+        - "Frequently"
+        - "Sometimes"
+        - "Once"
+        - "Unable to reproduce again"
+    validations:
+      required: true
+
+  - type: textarea
+    id: windows
+    attributes:
+      label: "Windows environment"
+      description: "Provide the information you can confirm. Enter Unknown where necessary. Do not include a local user name or an unredacted full path."
+      placeholder: |
+        Windows version:
+        CPU:
+        GPU:
+        RAM:
+        Installation method or location category:
+        Other relevant details:
+
+        Example location category:
+        Extracted to a user-managed local folder
+
+        Redacted path example:
+        C:\Users\<USER>\G.E.N.E
+    validations:
+      required: true
+
+  - type: textarea
+    id: local-llm
+    attributes:
+      label: "External local LLM environment"
+      description: "Provide the applicable runtime and model information. Enter Not applicable if the problem occurred before connecting to a model."
+      placeholder: |
+        Runtime:
+        Runtime version:
+        Model:
+        Model version or tag:
+        Relevant configuration:
+
+        Or:
+        Not applicable
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: "Publicly safe logs or screenshots"
+      description: "Optional. Remove personal information, dialogue content, local user names, secrets, tokens, and private file paths before posting."
+      placeholder: "Drag and drop a redacted screenshot, or paste a minimal redacted log excerpt."
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: "Additional context"
+      description: "Add any other publicly safe information needed to understand the issue."
