@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "Security Reporting Instructions"
+    url: "https://github.com/GeneSIS-Public/G.E.N.E/security/policy"
+    about: "Do not disclose an unpatched vulnerability publicly. Review the private reporting instructions in the Security Policy."
+  - name: "Private Contact Instructions"
+    url: "https://github.com/GeneSIS-Public/G.E.N.E/blob/main/docs/CONTACT_AND_SUPPORT.md"
+    about: "Use this route for purchase, Founder, rights, Privacy, or other matters requiring private handling."
