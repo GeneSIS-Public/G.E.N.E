@@ -1,0 +1,86 @@
+name: "Development Feedback"
+description: "Suggest a public product, workflow, compatibility, or documentation improvement."
+title: "[Feedback] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for publicly discussable development feedback.
+
+        Submission does not guarantee acceptance, implementation, a response, a schedule, or inclusion in a future release.
+
+        Do not include private dialogue history, Persona information, purchase or Founder details, credentials, private keys, or non-public Security information.
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: "Submission confirmation"
+      options:
+        - label: "I searched the existing Issues for a substantially similar proposal."
+          required: true
+        - label: "I confirm that this proposal is safe to discuss publicly."
+          required: true
+        - label: "I reviewed the Release Information and Known Limitations before submitting."
+          required: true
+        - label: "I understand that submission does not guarantee implementation, response, or a delivery date."
+          required: true
+        - label: "I confirm that this is not an unpatched vulnerability or another non-public Security matter."
+          required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: "Feedback category"
+      options:
+        - "Dialogue workflow"
+        - "Local LLM compatibility"
+        - "User interface or usability"
+        - "Data management or portability"
+        - "Performance or resource use"
+        - "Documentation"
+        - "Installation or setup"
+        - "Other"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: "Problem or need"
+      description: "Describe the user problem, limitation, or workflow need."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: "Proposed improvement"
+      description: "Describe the change or behavior you are suggesting."
+    validations:
+      required: true
+
+  - type: textarea
+    id: benefit
+    attributes:
+      label: "Expected benefit"
+      description: "Explain who benefits and how the proposal improves the G.E.N.E experience."
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "Alternatives considered"
+      description: "Optional. Describe current workarounds or other approaches."
+
+  - type: textarea
+    id: compatibility
+    attributes:
+      label: "Compatibility or migration impact"
+      description: "Optional. Note possible effects on models, runtimes, settings, files, or existing workflows."
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: "Additional context"
+      description: "Optional. Include only publicly safe information."
