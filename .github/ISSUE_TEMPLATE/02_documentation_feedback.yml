@@ -1,0 +1,95 @@
+name: "Documentation Feedback"
+description: "Report an incorrect, unclear, incomplete, or broken public document."
+title: "[Docs] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for public Documentation feedback.
+
+        Do not include purchase information, Founder qualification information, private correspondence, personal information, private dialogue history, credentials, or non-public Security details.
+
+  - type: checkboxes
+    id: public-safety
+    attributes:
+      label: "Public-report confirmation"
+      options:
+        - label: "I searched the existing Issues for the same documentation report."
+          required: true
+        - label: "I confirm that this report is safe to publish."
+          required: true
+        - label: "I confirm that this report does not contain an unpatched vulnerability or other non-public Security information."
+          required: true
+
+  - type: dropdown
+    id: document
+    attributes:
+      label: "Affected document"
+      options:
+        - "Repository README"
+        - "Security Policy"
+        - "Contact and Support"
+        - "Common Support Policy"
+        - "Founder Support Terms"
+        - "Privacy Notice"
+        - "Release Verification"
+        - "Release Information"
+        - "Known Limitations"
+        - "Changelog"
+        - "Other"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: feedback-type
+    attributes:
+      label: "Feedback type"
+      options:
+        - "Incorrect information"
+        - "Unclear wording"
+        - "Missing information"
+        - "Broken or incorrect link"
+        - "Inconsistent terminology"
+        - "Language or translation issue"
+        - "Formatting issue"
+        - "Other"
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: "Document location"
+      description: "Provide the section heading, line, anchor, or a short identifying phrase."
+      placeholder: "Example: Section 11, Release Verification"
+    validations:
+      required: true
+
+  - type: textarea
+    id: current
+    attributes:
+      label: "Current wording or behavior"
+      description: "Quote only the minimum text needed, or describe the broken behavior."
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: "Why this should be changed"
+      description: "Explain the factual, technical, readability, or consistency problem."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: "Suggested correction"
+      description: "Optional. Provide replacement wording or the intended destination."
+      placeholder: "Suggested wording, correction, or link target."
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: "Additional context"
+      description: "Optional. Include only publicly safe information."
