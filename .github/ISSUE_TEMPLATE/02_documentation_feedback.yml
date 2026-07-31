@@ -1,95 +1,90 @@
-name: "Documentation Feedback"
-description: "Report an incorrect, unclear, incomplete, or broken public document."
-title: "[Docs] "
+name: 文書Feedback / Documentation Feedback
+description: 公式文書の誤り、不足、分かりにくい記述を報告します。 Report errors, omissions, or unclear content in official documentation.
+title: '[Docs] '
+labels:
+- documentation
+- needs-triage
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Use this form for public Documentation feedback.
+- type: markdown
+  attributes:
+    value: '## 投稿前の確認 / Before submitting
 
-        Do not include purchase information, Founder qualification information, private correspondence, personal information, private dialogue history, credentials, or non-public Security details.
 
-  - type: checkboxes
-    id: public-safety
-    attributes:
-      label: "Public-report confirmation"
-      options:
-        - label: "I searched the existing Issues for the same documentation report."
-          required: true
-        - label: "I confirm that this report is safe to publish."
-          required: true
-        - label: "I confirm that this report does not contain an unpatched vulnerability or other non-public Security information."
-          required: true
+      このIssueは公開されます。個人情報、購入情報、認証情報、私的な内容を含めないでください。 This Issue is public. Do not include personal, purchase, authentication,
+      or private information.
 
-  - type: dropdown
-    id: document
-    attributes:
-      label: "Affected document"
-      options:
-        - "Repository README"
-        - "Security Policy"
-        - "Contact and Support"
-        - "Common Support Policy"
-        - "Founder Support Terms"
-        - "Privacy Notice"
-        - "Release Verification"
-        - "Release Information"
-        - "Known Limitations"
-        - "Changelog"
-        - "Other"
-    validations:
+
+      利用条件、Founder資格、Privacy等の非公開相談は[Contact and Support](../../docs/CONTACT_AND_SUPPORT.md)を使用してください。 For private questions
+      concerning terms, Founder status, or privacy, use [Contact and Support](../../docs/CONTACT_AND_SUPPORT.md).'
+- type: checkboxes
+  id: precheck
+  attributes:
+    label: 事前確認 / Pre-submission checks
+    options:
+    - label: 既存Issueを検索し、同じ文書報告がないことを確認しました。 / I searched existing Issues for the same documentation report.
       required: true
-
-  - type: dropdown
-    id: feedback-type
-    attributes:
-      label: "Feedback type"
-      options:
-        - "Incorrect information"
-        - "Unclear wording"
-        - "Missing information"
-        - "Broken or incorrect link"
-        - "Inconsistent terminology"
-        - "Language or translation issue"
-        - "Formatting issue"
-        - "Other"
-    validations:
+    - label: 公開してはいけない情報を含めていません。 / I have not included information that should remain private.
       required: true
-
-  - type: input
-    id: location
-    attributes:
-      label: "Document location"
-      description: "Provide the section heading, line, anchor, or a short identifying phrase."
-      placeholder: "Example: Section 11, Release Verification"
-    validations:
-      required: true
-
-  - type: textarea
-    id: current
-    attributes:
-      label: "Current wording or behavior"
-      description: "Quote only the minimum text needed, or describe the broken behavior."
-    validations:
-      required: true
-
-  - type: textarea
-    id: problem
-    attributes:
-      label: "Why this should be changed"
-      description: "Explain the factual, technical, readability, or consistency problem."
-    validations:
-      required: true
-
-  - type: textarea
-    id: proposal
-    attributes:
-      label: "Suggested correction"
-      description: "Optional. Provide replacement wording or the intended destination."
-      placeholder: "Suggested wording, correction, or link target."
-
-  - type: textarea
-    id: additional
-    attributes:
-      label: "Additional context"
-      description: "Optional. Include only publicly safe information."
+- type: input
+  id: document
+  attributes:
+    label: 対象文書 / Affected document
+    description: File名または文書名を記載してください。 Enter the filename or document title.
+    placeholder: 'Example: docs/KNOWN_LIMITATIONS.md'
+  validations:
+    required: true
+- type: input
+  id: location
+  attributes:
+    label: 対象箇所 / Affected section
+    description: 見出し、節、行、Link等を記載してください。 Identify the heading, section, line, or link.
+    placeholder: 'Example: Section 5 — External Runtime and Models'
+  validations:
+    required: true
+- type: dropdown
+  id: feedback_type
+  attributes:
+    label: Feedbackの種類 / Feedback type
+    options:
+    - 誤り / Incorrect information
+    - 不足 / Missing information
+    - 曖昧・分かりにくい / Ambiguous or unclear
+    - Link切れ / Broken link
+    - 日本語・英語間の差異 / Japanese-English inconsistency
+    - 誤字・表記 / Typo or notation
+    - その他 / Other
+  validations:
+    required: true
+- type: dropdown
+  id: language
+  attributes:
+    label: 対象言語 / Affected language
+    options:
+    - 日本語版 / Japanese
+    - 英語版 / English
+    - 両方 / Both
+    - 言語に依存しない / Language-independent
+  validations:
+    required: true
+- type: textarea
+  id: problem
+  attributes:
+    label: 問題の内容 / Description of the problem
+    description: 現在の記述にどのような問題があるか説明してください。 Explain what is wrong or unclear.
+  validations:
+    required: true
+- type: textarea
+  id: suggestion
+  attributes:
+    label: 修正案 / Suggested correction
+    description: 修正案がある場合は記載してください。 Provide a suggested correction if available.
+- type: textarea
+  id: impact
+  attributes:
+    label: 影響・理由 / Impact or reason
+    description: 利用者が誤解する可能性や、修正が必要と考える理由を記載してください。 Explain the possible impact or reason for correction.
+- type: textarea
+  id: additional
+  attributes:
+    label: 補足 / Additional context
+    description: 関連する公開情報や補足があれば記載してください。 Add related public information or context.

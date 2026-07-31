@@ -1,284 +1,211 @@
 # G.E.N.E Alpha v1.0 — Release Verification
 
-- **Document Version:** v0.2 Final Draft
-- **Status:** Draft — Pending Public Release
-- **Established:** ［正式公開時に記入］
-- **Effective From:** ［公開開始時に記入］
+- **Document Version:** v0.4
+- **Status:** Active — Public Release
 - **Published By:** GeneSIS
-- **Project:** Project: Code-NOAH
-- **Product:** G.E.N.E Alpha v1.0
+- **Operating Entity:** GeneSIS-Operator
+- **Applicable Release:** G.E.N.E Alpha v1.0
+- **Public Release Date:** `2026-07-31`
 - **Target Platform:** Windows x64
+- **Established:** 2026-07-31
+- **Effective From:** 2026-07-31
 
-> This document records the official verification values for the G.E.N.E Alpha v1.0 Windows x64 release archive.  
-> The existence of this document does not, by itself, indicate that public distribution has started.
+> 本書の日本語版を原文および正本として管理します。英語版その他の翻訳版との間に解釈上の差異がある場合は、適用法令上許される範囲で日本語版を優先します。
 
-## 日本語案内
+本書は、G.E.N.E Alpha v1.0の公式Application Archiveを識別し、取得したFileが固定済みの公式Archiveと一致するか確認するための値と方法を示します。
 
-この文書は、G.E.N.E Alpha v1.0の正式配布ZIPが、GeneSISの公開した正式Release記録と一致するか確認するための資料です。
+## 1. 公式Archive
 
-Windowsでは、PowerShellで次のCommandを実行し、表示されたSHA-256を本書の正式値と比較してください。
-
-```powershell
-Get-FileHash ".\G.E.N.E_Alpha_v1.0_Windows_x64.zip" -Algorithm SHA256
-```
-
-SHA-256が一致しない場合は、ZIPを展開または実行せず、公式GeneSIS BOOTHから再取得してください。
-
-正式な検証値および詳細な手順は、以下の本文に記載しています。
-
-## Verification Scope
-
-This document describes archive-level verification using the file size and SHA-256 hash of the complete ZIP archive.
-
-It does not provide a complete procedure for independently verifying the signed Release Manifest or the full internal release-evidence chain.
-
-A separate signature-verification procedure may be published when GeneSIS provides that process for public use.
-
-## 1. Official Release Archive
-
-The official release archive is identified by all of the following values.
-
-| Item | Official Value |
+| 項目 | 固定値 |
 |---|---|
+| Product | `G.E.N.E Alpha v1.0` |
 | File Name | `G.E.N.E_Alpha_v1.0_Windows_x64.zip` |
 | File Size | `79,504,332 bytes` |
-| SHA-256 | `420db62dbb6763aebe01a5e0ab0225ebdafdb9bc6ec471e45098d2e812d3ffea` |
 | Build | `G.E.N.E_Alpha_v1.0_R10-4D-4_Build-005` |
+| SHA-256 | `420db62dbb6763aebe01a5e0ab0225ebdafdb9bc6ec471e45098d2e812d3ffea` |
 | Release Identity SHA-256 | `1ac70e76edc2225e69f80d33b4bb60c2d01bb8fd135b14e4cdb8bae7367cbcc9` |
 | Release Record Signed Date | `2026-07-21` |
-| Release Verification Status | `PASS` |
+| Internal Archive Verification | `PASS` |
 
-The official ZIP archive must not be modified after these values have been established.
+これらの値は、G.E.N.E Alpha v1.0の固定済み公式Archiveを識別します。
 
-Changing, recompressing, renaming the internal files, adding files, removing files or editing any content inside the archive will normally change the archive SHA-256 value.
+公式Archive自体は変更、再圧縮または同名差替えを行いません。
 
-## 2. What the Values Mean
+## 2. 各値の意味
 
-### 2.1 File Name
+### File Name
 
-The expected archive name is:
+公式ArchiveのFile名です。
 
-```text
-G.E.N.E_Alpha_v1.0_Windows_x64.zip
-```
+File名だけでは内容の同一性を証明できないため、File SizeとSHA-256も確認してください。
 
-A different file name does not by itself prove that the contents are different, because users can rename a downloaded file.
+### File Size
 
-For verification, the SHA-256 value is more important than the local file name.
+Archive全体のByte数です。
 
-### 2.2 File Size
+File Sizeが一致していても内容が同一とは限らないため、SHA-256による確認が必要です。
 
-The expected archive size is:
+### SHA-256
 
-```text
-79,504,332 bytes
-```
+公式Application ArchiveそのもののSHA-256です。
 
-A different size indicates that the file is not byte-for-byte identical to the official archive.
-
-Matching size alone is not sufficient. Always verify the SHA-256 value.
-
-### 2.3 Archive SHA-256
-
-The archive SHA-256 is calculated directly from the complete ZIP file.
-
-Expected value:
+取得したFileのSHA-256が次と完全一致することを確認してください。
 
 ```text
 420db62dbb6763aebe01a5e0ab0225ebdafdb9bc6ec471e45098d2e812d3ffea
 ```
 
-If the calculated value matches exactly, the local ZIP file matches the SHA-256 value published for the official archive represented by this record.
+大文字・小文字はHash値の意味を変えませんが、文字の欠落、追加または置換が一つでもある場合は一致していません。
 
-### 2.4 Build Identifier
+### Build
 
-The official Build identifier is:
+Application内で識別されるBuild IDです。
 
 ```text
 G.E.N.E_Alpha_v1.0_R10-4D-4_Build-005
 ```
 
-The Build identifier identifies the intended G.E.N.E build represented by this release.
+Archive検証ではSHA-256を優先し、Build表示は内部識別の補助として使用します。
 
-The Build identifier is not a substitute for file-hash verification.
+### Release Identity SHA-256
 
-### 2.5 Release Identity SHA-256
-
-The official Release Identity value is:
+Release Recordを識別するための値です。
 
 ```text
 1ac70e76edc2225e69f80d33b4bb60c2d01bb8fd135b14e4cdb8bae7367cbcc9
 ```
 
-This value identifies the official GeneSIS release record associated with this build.
+これはApplication ArchiveのSHA-256ではありません。Archive検証には前項のArchive SHA-256を使用してください。
 
-It is distinct from the SHA-256 value calculated directly from the ZIP archive.
+## 3. Windows PowerShellでの確認
 
-Unless GeneSIS publishes a separate Release Identity generation and verification procedure, users should treat this value as an official release-record identifier and should use the archive SHA-256 value for direct local-file verification.
+### SHA-256
 
-## 3. Verify on Windows PowerShell
-
-Open PowerShell in the folder containing the downloaded ZIP file and run:
+PowerShellで、ArchiveがあるDirectoryへ移動し、次を実行します。
 
 ```powershell
 Get-FileHash ".\G.E.N.E_Alpha_v1.0_Windows_x64.zip" -Algorithm SHA256
 ```
 
-Expected hash:
+表示された`Hash`が次と一致することを確認します。
 
 ```text
-420db62dbb6763aebe01a5e0ab0225ebdafdb9bc6ec471e45098d2e812d3ffea
-```
-
-PowerShell may display hexadecimal letters in uppercase. Uppercase and lowercase letters represent the same hexadecimal value.
-
-Example comparison:
-
-```text
-Expected:
-420db62dbb6763aebe01a5e0ab0225ebdafdb9bc6ec471e45098d2e812d3ffea
-
-Calculated:
 420DB62DBB6763AEBE01A5E0AB0225EBDAFDB9BC6EC471E45098D2E812D3FFEA
 ```
 
-These two values match.
+### File Size
 
-## 4. Verify with Windows `certutil`
+```powershell
+(Get-Item ".\G.E.N.E_Alpha_v1.0_Windows_x64.zip").Length
+```
 
-Windows users may also run:
+表示結果が次であることを確認します。
+
+```text
+79504332
+```
+
+### 一括確認例
+
+```powershell
+$file = ".\G.E.N.E_Alpha_v1.0_Windows_x64.zip"
+
+Get-Item $file | Select-Object Name, Length
+Get-FileHash $file -Algorithm SHA256
+```
+
+## 4. Windows certutilでの確認
+
+PowerShellを使用しない場合は、Command Promptで次を実行できます。
 
 ```cmd
 certutil -hashfile "G.E.N.E_Alpha_v1.0_Windows_x64.zip" SHA256
 ```
 
-Compare the result with:
+表示されたSHA-256が本書の固定値と一致することを確認してください。
 
-```text
-420db62dbb6763aebe01a5e0ab0225ebdafdb9bc6ec471e45098d2e812d3ffea
-```
+## 5. Linux・macOSでの確認
 
-Ignore spaces inserted by the command when comparing the hexadecimal value.
+配布対象PlatformはWindows x64ですが、別環境でArchiveを確認する場合は次を利用できます。
 
-## 5. Verify on Linux
-
-Run:
+### Linux
 
 ```bash
-sha256sum "G.E.N.E_Alpha_v1.0_Windows_x64.zip"
+sha256sum G.E.N.E_Alpha_v1.0_Windows_x64.zip
+stat -c %s G.E.N.E_Alpha_v1.0_Windows_x64.zip
 ```
 
-Expected output begins with:
-
-```text
-420db62dbb6763aebe01a5e0ab0225ebdafdb9bc6ec471e45098d2e812d3ffea
-```
-
-## 6. Verify on macOS
-
-Run:
+### macOS
 
 ```bash
-shasum -a 256 "G.E.N.E_Alpha_v1.0_Windows_x64.zip"
+shasum -a 256 G.E.N.E_Alpha_v1.0_Windows_x64.zip
+stat -f %z G.E.N.E_Alpha_v1.0_Windows_x64.zip
 ```
 
-Expected output begins with:
+## 6. 一致しない場合
+
+次のいずれかが一致しない場合は、そのFileを公式Archiveとして扱わないでください。
+
+- File名
+- File Size
+- SHA-256
+
+まず、GeneSIS公式BOOTHから再取得してください。
+
+再取得しても一致しない場合は、Fileを実行または展開せず、[Contact and Support](./CONTACT_AND_SUPPORT.md)に記載するGeneSIS公式窓口へ連絡してください。
+
+未修正のSecurity問題が疑われる場合は、公開IssueやSNSへ詳細を投稿せず、[Security Policy](../SECURITY.md)の非公開経路を使用してください。
+
+## 7. Release Archiveの検証証跡
+
+固定済み公式Archiveは、Release時に次の内部検証を完了しています。
+
+| 項目 | 結果 |
+|---|---|
+| Release Archive Verification Status | `PASS` |
+| ZIP整合性 | `PASS` |
+| Release Manifest署名 | `Ed25519 / PASS` |
+| Release Manifest記載Artifact | `75 / 75 一致` |
+| `09_SHA256SUMS.txt` | `75 / 75 一致` |
 
 ```text
-420db62dbb6763aebe01a5e0ab0225ebdafdb9bc6ec471e45098d2e812d3ffea
+Release Archive Verification Status:
+PASS
 ```
 
-## 7. Result Interpretation
+この結果は、公式Archiveの固定、Manifest署名および内部Artifact照合に関するRelease証跡です。
 
-### Match
+BOOTHその他の配布経路上で行う取得確認は、本書のArchive識別値とは分離したGeneSIS-Operatorの内部活動証跡として管理します。配布経路上の確認結果によって、本書のFile Size、SHA-256、BuildまたはRelease Identityを変更しません。
 
-The file is consistent with the official release archive when:
+## 8. Founder Packageとの関係
+
+Founder初期Packageには、無料配布版と同じ公式G.E.N.E Application Archiveを格納します。
+
+Founder Package内の次のFileは、本書の固定値と一致しなければなりません。
 
 ```text
-File size:
-79,504,332 bytes
-
-SHA-256:
-420db62dbb6763aebe01a5e0ab0225ebdafdb9bc6ec471e45098d2e812d3ffea
+G.E.N.E_Alpha_v1.0_Windows_x64.zip
 ```
 
-The SHA-256 comparison is the primary verification step.
-
-A matching SHA-256 confirms consistency with the hash published in this record.
-
-Users should also confirm that both the distribution page and this verification document were reached through official GeneSIS channels.
-
-### Mismatch
-
-Do not run or extract the archive if the calculated SHA-256 does not match.
-
-A mismatch may indicate:
-
-- an incomplete or corrupted download;
-- a modified or recompressed archive;
-- a different G.E.N.E build;
-- a file obtained from an unofficial source;
-- accidental local modification;
-- malicious tampering.
-
-Delete the mismatched file and obtain a new copy from the official distribution channel.
-
-Do not attempt to repair the archive manually and then treat it as an official file.
-
-## 8. Official Distribution and Information Sources
-
-The official G.E.N.E archive is distributed through the official GeneSIS BOOTH channel.
-
-This GitHub Repository is the official source for:
-
-- Release information;
-- verification values;
-- Build identification;
-- Known Limitations;
-- Support and Security policies;
-- official technical documentation.
-
-GitHub is not the purchase record or Founder qualification authority.
-
-BOOTH purchase records are the authoritative source for Founder qualification where applicable.
-
-## 9. Reporting a Verification Problem
-
-For a simple documentation error that contains no private information, use the public GitHub Issue route described in [Contact and Support](./CONTACT_AND_SUPPORT.md).
-
-For a suspected malicious archive, compromised distribution route or other non-public Security concern, follow the private reporting route in [Security Policy](../SECURITY.md).
-
-For purchase, Founder qualification or other private matters, contact the GeneSIS official Gmail address described in [Contact and Support](./CONTACT_AND_SUPPORT.md).
-
-Do not post the following information in a public GitHub Issue:
-
-- purchase or Founder identification information;
-- private email correspondence;
-- Passwords, authentication codes, API Keys or private keys;
-- private dialogue history or Persona information;
-- unredacted local paths or Logs containing personal information;
-- details of an unpatched Security issue.
-
-## 10. Verification Checklist
-
-Before using the archive, confirm all applicable items.
+Founder Packageの外側ZIPには、別のFile名、File SizeおよびSHA-256が設定されます。
 
 ```text
-[ ] The file was obtained from the official GeneSIS distribution channel.
-[ ] The expected archive name is G.E.N.E_Alpha_v1.0_Windows_x64.zip.
-[ ] The file size is 79,504,332 bytes.
-[ ] The calculated SHA-256 exactly matches the official SHA-256.
-[ ] The release is identified as G.E.N.E_Alpha_v1.0_R10-4D-4_Build-005.
-[ ] Any mismatch or Security concern has been reported through the correct route.
+G.E.N.E Application Archive SHA-256
+≠
+Founder Package外側ZIP SHA-256
 ```
 
-## 11. Related Documents
+Founder Package外側ZIPの検証値は、Package完成後に外部Verification Recordへ記録します。本書のArchive SHA-256へ置き換えたり、混在させたりしません。
 
-- [G.E.N.E Repository README](../README.md)
-- [Contact and Support](./CONTACT_AND_SUPPORT.md)
-- [G.E.N.E / GeneSIS Common Support Policy](./SUPPORT_POLICY.md)
-- [Security Policy](../SECURITY.md)
-- [Privacy Notice](./PRIVACY_NOTICE.md)
+## 9. 更新と差替え
+
+G.E.N.E Alpha v1.0の公式Archiveは変更しません。
+
+文書、Support経路またはKnown Limitationsが更新されても、固定済みApplication Archiveへ変更を加えません。
+
+後続のG.E.N.E v1.x Releaseは、Versionを識別できる別Fileとして配布します。
+
+同じFile名のまま内容だけを変更する無言差替えは行いません。
 
 ---
 

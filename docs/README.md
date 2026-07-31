@@ -1,34 +1,52 @@
-# G.E.N.E Official Documentation
+# G.E.N.E Documentation
 
-この公式Documentation領域には、G.E.N.Eに関する公式文書、Release情報および検証情報を掲載します。
+[English](./README_EN.md)
 
-## Documentation Structure
+G.E.N.Eの公式文書一覧です。
 
-正式公開に向けて、次の情報を順次整備します。
+日本語版を原文・正本として通常File名で管理し、英語公式翻訳を`_EN.md`で管理します。
 
-- Release Information
-- Release Verification
-- Known Limitations
-- Support Policy
-- Founder Terms
-- Contact and Support
-- Update History
+## Release
 
-各文書の公開後、このページを公式Documentationの索引として更新します。
+| 文書 | 内容 |
+|---|---|
+| [Release Information](./RELEASE_INFORMATION.md) | Releaseの位置づけ、Phase、Alpha、配布方針 |
+| [Release Verification](./RELEASE_VERIFICATION.md) | 公式Archiveの固定値と検証方法 |
+| [Known Limitations](./KNOWN_LIMITATIONS.md) | 現在の制約、未検証範囲、利用上の注意 |
+| [Changelog](../CHANGELOG.md) | 公開Version単位の変更履歴 |
 
-## Source of Truth
+## Operation
 
-このRepositoryに掲載された文書は、各文書に記載されたVersion、制定日、適用開始日および適用対象に基づいて管理します。
+| 文書 | 内容 |
+|---|---|
+| [Contact and Support](./CONTACT_AND_SUPPORT.md) | 問い合わせ経路、Support範囲、対応方針 |
+| [Security Policy](../SECURITY.md) | 未修正のSecurity問題の非公開報告 |
+| [Privacy Notice](./PRIVACY_NOTICE.md) | 個人情報等の取扱いとPrivacy請求 |
 
-正式な製品Packageの配布はBOOTHで行い、GitHubは技術情報、Release情報、検証情報および公開文書の正本として運用します。
+## 利用条件
 
-G.E.N.E本体の利用条件については、正式製品Packageに付属するEULAを優先します。
+| 文書 | 内容 |
+|---|---|
+| [EULA — Download前確認用Copy](./EULA.md) | G.E.N.E Alpha v1.0の利用条件。正式配布Archive内の`EULA.txt`が正本 |
 
-製品Packageに同梱された文書と本Repository上の文書でVersionが異なる場合は、それぞれに記載された適用対象と適用開始日を確認してください。
+## Founder
 
-## Source Code
+| 文書 | 内容 |
+|---|---|
+| [Founder Terms](./FOUNDER_TERMS.md) | Founder資格、参加条件、後日提供対象 |
 
-このRepositoryでは、G.E.N.EのSource Codeを公開しません。
+## English
+
+EULAは正式配布Archiveと同一本文の日本語正本です。英語公式翻訳は本Releaseでは提供していません。
+
+- [Release Information — English](./RELEASE_INFORMATION_EN.md)
+- [Release Verification — English](./RELEASE_VERIFICATION_EN.md)
+- [Known Limitations — English](./KNOWN_LIMITATIONS_EN.md)
+- [Changelog — English](../CHANGELOG_EN.md)
+- [Contact and Support — English](./CONTACT_AND_SUPPORT_EN.md)
+- [Security Policy — English](../SECURITY_EN.md)
+- [Privacy Notice — English](./PRIVACY_NOTICE_EN.md)
+- [Founder Terms — English](./FOUNDER_TERMS_EN.md)
 
 ---
 

@@ -1,86 +1,94 @@
-name: "Development Feedback"
-description: "Suggest a public product, workflow, compatibility, or documentation improvement."
-title: "[Feedback] "
+name: 開発Feedback / Development Feedback
+description: 機能、Workflow、互換性、将来改善に関する提案を提出します。 Propose improvements to features, workflows, compatibility, or future development.
+title: '[Feedback] '
+labels:
+- enhancement
+- needs-triage
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Use this form for publicly discussable development feedback.
+- type: markdown
+  attributes:
+    value: '## このFormについて / About this form
 
-        Submission does not guarantee acceptance, implementation, a response, a schedule, or inclusion in a future release.
 
-        Do not include private dialogue history, Persona information, purchase or Founder details, credentials, private keys, or non-public Security information.
+      このIssueは公開されます。個人情報、非公開資料、私的対話、購入情報を含めないでください。 This Issue is public. Do not include personal information, non-public
+      materials, private dialogue, or purchase information.
 
-  - type: checkboxes
-    id: confirmation
-    attributes:
-      label: "Submission confirmation"
-      options:
-        - label: "I searched the existing Issues for a substantially similar proposal."
-          required: true
-        - label: "I confirm that this proposal is safe to discuss publicly."
-          required: true
-        - label: "I reviewed the Release Information and Known Limitations before submitting."
-          required: true
-        - label: "I understand that submission does not guarantee implementation, response, or a delivery date."
-          required: true
-        - label: "I confirm that this is not an unpatched vulnerability or another non-public Security matter."
-          required: true
 
-  - type: dropdown
-    id: category
-    attributes:
-      label: "Feedback category"
-      options:
-        - "Dialogue workflow"
-        - "Local LLM compatibility"
-        - "User interface or usability"
-        - "Data management or portability"
-        - "Performance or resource use"
-        - "Documentation"
-        - "Installation or setup"
-        - "Other"
-    validations:
+      提案の受付は、採用・実装・期限・返信を保証しません。 Submission does not guarantee adoption, implementation, timing, or a reply.'
+- type: checkboxes
+  id: precheck
+  attributes:
+    label: 事前確認 / Pre-submission checks
+    options:
+    - label: 既存Issueを検索し、実質的に同じ提案がないことを確認しました。 / I searched existing Issues for a substantially similar proposal.
       required: true
-
-  - type: textarea
-    id: problem
-    attributes:
-      label: "Problem or need"
-      description: "Describe the user problem, limitation, or workflow need."
-    validations:
+    - label: 公開してはいけない情報を含めていません。 / I have not included information that should remain private.
       required: true
-
-  - type: textarea
-    id: proposal
-    attributes:
-      label: "Proposed improvement"
-      description: "Describe the change or behavior you are suggesting."
-    validations:
+    - label: 個別Supportや非公開相談ではなく、公開可能な開発Feedbackです。 / This is publicly shareable development feedback, not an individual support
+        or private inquiry.
       required: true
-
-  - type: textarea
-    id: benefit
-    attributes:
-      label: "Expected benefit"
-      description: "Explain who benefits and how the proposal improves the G.E.N.E experience."
-    validations:
-      required: true
-
-  - type: textarea
-    id: alternatives
-    attributes:
-      label: "Alternatives considered"
-      description: "Optional. Describe current workarounds or other approaches."
-
-  - type: textarea
-    id: compatibility
-    attributes:
-      label: "Compatibility or migration impact"
-      description: "Optional. Note possible effects on models, runtimes, settings, files, or existing workflows."
-
-  - type: textarea
-    id: additional
-    attributes:
-      label: "Additional context"
-      description: "Optional. Include only publicly safe information."
+- type: input
+  id: summary
+  attributes:
+    label: 提案の概要 / Proposal summary
+    description: 提案を一文で要約してください。 Summarize the proposal in one sentence.
+    placeholder: 'Example: Referenceファイルの管理画面に検索機能を追加する'
+  validations:
+    required: true
+- type: dropdown
+  id: area
+  attributes:
+    label: 対象領域 / Affected area
+    multiple: true
+    options:
+    - UI・操作 / UI or operation
+    - Persona
+    - Dialogue History
+    - Summary
+    - Knowledge
+    - Referenceファイル / Reference files
+    - Runtime・Model接続 / Runtime or model connection
+    - Data・保存形式 / Data or storage format
+    - 移行・互換性 / Migration or compatibility
+    - 性能 / Performance
+    - Documentation
+    - その他 / Other
+  validations:
+    required: true
+- type: textarea
+  id: problem
+  attributes:
+    label: 解決したい問題 / Problem or opportunity
+    description: 現在どのような問題、不便、改善余地があるか説明してください。 Explain the current problem, inconvenience, or opportunity.
+  validations:
+    required: true
+- type: textarea
+  id: proposal
+  attributes:
+    label: 提案内容 / Proposed behavior
+    description: どのような動作や構造を提案するか説明してください。 Describe the behavior or structure you propose.
+  validations:
+    required: true
+- type: textarea
+  id: use_case
+  attributes:
+    label: 利用例 / Use case
+    description: 誰が、どの場面で、どのように利用するか説明してください。 Explain who would use it, when, and how.
+  validations:
+    required: true
+- type: textarea
+  id: compatibility
+  attributes:
+    label: Data・互換性への影響 / Data and compatibility considerations
+    description: 既存Data、設定、Runtime、Model、Version移行への影響が考えられる場合は記載してください。 Describe possible effects on existing data, settings,
+      runtimes, models, or version migration.
+- type: textarea
+  id: alternatives
+  attributes:
+    label: 代替案 / Alternatives considered
+    description: 検討した別の方法や現在の回避策があれば記載してください。 Describe alternatives or current workarounds.
+- type: textarea
+  id: additional
+  attributes:
+    label: 補足 / Additional context
+    description: 公開可能な図、例、参考情報等があれば追加してください。 Add publicly shareable examples, diagrams, or references.

@@ -1,189 +1,143 @@
 # Contact and Support
 
-この文書では、G.E.N.EおよびGeneSISに関する問い合わせ窓口と、内容ごとの受付経路を案内します。
+- **Document Version:** v0.4
+- **Status:** Active
+- **Published By:** GeneSIS
+- **Operating Entity:** GeneSIS-Operator
+- **Applicable To:** GeneSIS / Project: Code-NOAH / G.E.N.E Phase 1 / v1.x
+- **Established:** 2026-07-31
+- **Effective From:** 2026-07-31
 
-問い合わせ内容に応じて、GitHub Issues、GitHubの非公開脆弱性報告機能、またはGeneSIS公式窓口を使用してください。
+> 本書の日本語版を原文および正本として管理します。英語版その他の翻訳版との間に解釈上の差異がある場合は、適用法令上許される範囲で日本語版を優先します。
 
-Supportの対象範囲、対応方針および対象外事項の詳細は、[G.E.N.E / GeneSIS 共通Support Policy](./SUPPORT_POLICY.md)を確認してください。
+本書は、GeneSISおよびG.E.N.Eに関する問い合わせ経路、Support範囲および基本的な対応方針を定めます。
 
-## Public Technical Issues
+## 1. 受付経路
 
-公開可能で再現性のある通常の技術的不具合は、G.E.N.E公式RepositoryのGitHub Issuesで受け付けます。
+| 内容 | 受付経路 |
+|---|---|
+| 公開可能で再現性のある通常不具合 | GitHub Issues — Bug Report |
+| 文書の誤り・不足 | GitHub Issues — Documentation Feedback |
+| 開発上の提案・Feedback | GitHub Issues — Development Feedback |
+| 購入、Founder照合、利用条件、権利、Privacy | GeneSIS公式窓口 |
+| 公開に適さない不具合・その他の非公開連絡 | GeneSIS公式窓口 |
+| 未修正のSecurity問題 | [Security Policy](../SECURITY.md)に記載する非公開経路 |
 
-Issueを作成する際は、可能な範囲で次の情報を記載してください。
+**GeneSIS公式窓口**
 
-* 使用しているG.E.N.EのVersionまたはBuild
-* 使用しているOSおよび実行環境
-* 接続しているローカルLLM環境
-* 使用しているLLMモデル
-* 問題の概要
-* 問題が発生するまでの操作
-* 再現手順
-* 期待していた動作
-* 実際に発生した動作
-* 再現頻度
-* 関連するLogまたは画面情報
-* 確認済みの回避方法
+`genesis.official.poc@mail.com`
 
-すべての項目を記載する必要はありません。
+Xを含むSNS上のReply、MentionまたはDirect Messageは、正式なSupport受付経路ではありません。
 
-ただし、再現に必要な情報が不足している場合、GeneSISが問題を確認または調査できないことがあります。
+## 2. GitHub Issues
 
-個人情報、Password、Access Token、API Key、秘密鍵その他の機密情報は、GitHub Issuesへ掲載しないでください。
+GitHub Issuesは公開領域です。通常不具合を報告する場合は、可能な範囲で次を記載してください。
 
-次の内容は、公開Issueへ投稿しないでください。
+- G.E.N.EのVersionまたはBuild
+- OS、Runtime、Model等の実行環境
+- 問題の概要
+- 再現手順
+- 期待した動作と実際の動作
+- 再現頻度
+- 公開可能なLogまたは画面情報
+- 確認済みの回避方法
 
-* Security上の懸念
-* 個人情報を含む問題
-* 購入またはFounder資格に関する情報
-* 非公開の利用条件または権利に関する相談
-* 第三者が悪用できる未修正の問題
-* 公開に適さないLog、File、Pathまたは画面情報
-* 未加工の対話履歴、Persona情報または私的なデータ
+情報が不足している場合は、確認または再現ができないことがあります。
 
-## Security Reports
+公開Issueへ次を投稿しないでください。
 
-Security上の懸念は、公開のGitHub Issue、SNSまたはその他の公開場所へ投稿しないでください。
+- 個人情報、購入情報、Founder照合情報
+- Password、Token、API Key、秘密鍵、認証Code
+- 私的な対話履歴、Persona情報、非公開資料
+- 未修正脆弱性の再現・悪用に利用できる詳細
+- 第三者へ公開すべきでないFile、Log、Pathまたは画面情報
 
-このRepositoryで非公開脆弱性報告機能が有効になっている場合は、GitHub Security画面の非公開報告経路を使用してください。
+認証情報を誤って公開した場合は、投稿の削除だけでなく、該当情報を速やかに無効化または変更してください。
 
-非公開脆弱性報告機能が利用できない場合は、GeneSIS公式窓口へ非公開でご連絡ください。
+## 3. 非公開の問い合わせ
 
-詳細は、Repository直下の[`SECURITY.md`](../SECURITY.md)を確認してください。
-
-問題がSecurity上の懸念に該当するか判断できない場合も、公開Issueへ詳細を投稿せず、非公開経路を使用してください。
-
-## Official Contact
-
-次の内容は、GeneSIS公式窓口で受け付けます。
-
-* 購入に関する問い合わせ
-* Founder資格および購入記録の照合
-* 利用条件、配布条件および権利に関する問い合わせ
-* 個人情報に関する連絡
-* 公開に適さない技術的不具合
-* Security上の懸念
-* GitHub Issuesを利用できない特別な事情があり、公開可能な代替手段がない場合の連絡
-* その他、公開の場で扱うことが適切でない問い合わせ
-
-**GeneSIS 公式窓口 - Official Contact**
-
-`［genesis.official.poc@mail.com］`
-
-問い合わせ内容が分かる件名を付けてください。
+GeneSIS公式窓口では、購入、Founder照合、利用条件、権利、Privacy、公開に適さない不具合その他の非公開連絡を受け付けます。
 
 件名例：
 
 ```text
 [Founder] Founder資格・購入記録の照合
 [Rights] 利用条件・権利に関する問い合わせ
+[Privacy] 個人情報に関する問い合わせ
 [Private Bug] 非公開の不具合報告
-[Security Report] Security上の懸念
 [Other] その他の非公開連絡
 ```
 
-Security上の懸念を報告する場合は、件名の先頭に次の表記を付けてください。
+Founder照合では、必要に応じてBOOTH注文番号、商品名、おおよその購入時期等を確認します。
 
-```text
-[Security Report]
-```
+GeneSISが、Password、2段階認証Code、Backup Code、クレジットカード番号その他の認証・決済情報を求めることはありません。
 
-## Founder Verification
+個人情報の取扱いと権利請求については、[Privacy Notice](./PRIVACY_NOTICE.md)をご確認ください。
 
-Founder資格または購入記録の照合を依頼する場合は、可能な範囲で次の情報を記載してください。
+## 4. Security報告
 
-* BOOTHの注文番号
-* 対象商品名
-* おおよその購入時期
-* BOOTH上で確認可能なユーザー識別情報
-* 問い合わせの目的
+未修正のSecurity問題は、公開IssueまたはSNSへ投稿しないでください。
 
-照合には、必要最小限の情報のみを送信してください。
+GitHubの非公開脆弱性報告機能が有効な場合はその経路を使用し、利用できない場合はGeneSIS公式窓口へ、件名`[Security Report]`で連絡してください。
 
-次の情報は送信しないでください。
+対象範囲、報告内容および開示方針は、[Security Policy](../SECURITY.md)を優先します。
 
-* BOOTH、Googleその他のPassword
-* 2段階認証Code
-* Backup Code
-* Access Token
-* API Key
-* 秘密鍵
-* クレジットカード番号
-* 金融口座の認証情報
+## 5. Support範囲
 
-GeneSISから、これらの認証情報の提出を求めることはありません。
+GeneSISは、状況に応じて次の対応を行うことがあります。
 
-## GitHub Issues Are Not for Private Support
+- 通常不具合と再現条件の確認
+- Known Limitationsまたは回避方法の案内
+- 文書の訂正・補足
+- 修正版または更新版の検討
+- 公式配布物と検証情報の確認
+- 利用条件、権利またはFounder資格に関する案内
 
-GitHub Issuesは、原則として第三者が閲覧できる公開領域です。
+次の個別作業は、別途明示しない限りSupportに含みません。
 
-個人情報、購入情報、認証情報、非公開資料、私的な対話履歴または第三者へ公開すべきでない情報を含む問い合わせには使用しないでください。
+- 個別PCへの導入またはRemote設定
+- Ollama、Model、OS、Hardware等の外部製品自体のSupport
+- Persona、Prompt、KnowledgeまたはReferenceの個別作成
+- 対話履歴やDataの変換、整理または復旧代行
+- 個別環境向けCustomization
+- 継続的な個別Consulting
+- Source Code、内部資料または未公開Buildの提供
 
-公開Issueへ機密情報を誤って投稿した場合は、可能な範囲で速やかに内容を削除または編集し、GeneSIS公式窓口へご連絡ください。
+G.E.N.Eは外部Runtime、Model、OSおよびHardwareと組み合わせて使用されます。外部製品単体の仕様、障害、提供終了または回答品質をGeneSISが管理・保証するものではありません。
 
-Token、Password、秘密鍵その他の認証情報を公開してしまった場合は、投稿を削除するだけでなく、該当する認証情報を速やかに無効化または変更してください。
+## 6. 対応方針
 
-## Social Media
+対応の判断では、主として再現性、影響範囲、重大性、安全性、Data消失の可能性、技術的実現性および現在の開発状況を考慮します。
 
-SNSは、Release告知、更新情報、簡単な案内および公式導線の周知に使用します。
-
-SNS上の投稿、Reply、MentionまたはDirect Messageは、正式なSupport受付経路ではありません。
-
-Supportが必要な場合は、GitHub Issues、GitHubの非公開脆弱性報告機能、またはGeneSIS公式窓口を使用してください。
-
-SNS上で個人情報、購入情報、認証情報または未修正のSecurity問題を送信しないでください。
-
-## Support Scope
-
-Founder参加、BOOSTまたはその他の任意支援には、原則として次の個別対応は含まれません。
-
-* 個別PCへの導入代行
-* Remote操作による設定
-* OllamaやLLMモデルの導入代行
-* 個別Personaの作成
-* 対話履歴の変換または整理代行
-* 個別環境へのカスタマイズ
-* 継続的な個別Consulting
-* 外部製品自体のSupport
-
-詳細は、[G.E.N.E / GeneSIS 共通Support Policy](./SUPPORT_POLICY.md)に従います。
-
-## Response and Resolution
-
-GeneSISは、受け付けた内容を確認し、必要に応じて調査および対応方針を検討します。
-
-ただし、次の事項を保証するものではありません。
-
-* すべての問い合わせへの返信
-* 一定期間内の返信
-* 個別対応
-* 問題の修正
-* 要望の採用または実装
-* 対応期限
-* 特定の結果
-* 利用者データの復旧
+支援額、Founder参加、BOOSTまたは購入回数によって、技術評価、修正順位または基本的なSupport範囲を変更しません。
 
 受付順と対応順は一致しない場合があります。
 
-技術的不具合の評価、対応順位および修正方針は、主として次の要素を考慮して判断します。
+GeneSISは個人運営であるため、健康、生活、資金、技術的事情または外部Platformの変更等により、開発、公開、返信またはSupportを一時停止、縮小または終了する場合があります。
 
-* 再現性
-* 影響範囲
-* 重大性
-* 安全性
-* データ消失または破損の可能性
-* 利用者への影響
-* 技術的実現性
-* 製品思想との整合
-* 開発状況
+次を保証するものではありません。
 
-支援額、Founder参加の有無または購入回数によって、技術的評価、問い合わせ対応順位、修正順位または基本的な応対方針を変更しません。
+- すべての問い合わせへの返信
+- 一定期間内の返信
+- 個別対応
+- 問題の修正
+- 要望の採用または実装
+- 対応期限
+- 利用者Dataの復旧
+- 特定の結果
 
-## Current Status
+暴言、脅迫、嫌がらせ、Spam、虚偽情報、違法行為への協力要求または運営を著しく妨害する行為がある場合は、対応を制限または終了することがあります。正当な批判、不具合報告または異なる意見のみを理由に制限するものではありません。
 
-G.E.N.E Alpha v1.0は現在、一般公開準備中です。
+## 7. 関連文書
 
-GitHub Issues、非公開脆弱性報告機能、関連URLおよびSupport Policyの正式な運用状態は、一般公開時までに更新します。
+- G.E.N.E本体の利用条件：正式配布Packageに付属するEULA
+- Security報告：[Security Policy](../SECURITY.md)
+- 個人情報：[Privacy Notice](./PRIVACY_NOTICE.md)
+- Founder参加：[Founder Terms](./FOUNDER_TERMS.md)
+- 対応環境・制約：[Known Limitations](./KNOWN_LIMITATIONS.md)
+
+本書は、個別対応、返信、修正または一定期間内の対応を保証するService Level Agreementではありません。
 
 ---
+
 Copyright © 2026 GeneSIS: Concept Engineer's HQ. All rights reserved.

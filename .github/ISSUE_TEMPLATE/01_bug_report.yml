@@ -1,148 +1,175 @@
-name: "Technical Bug Report"
-description: "Report a reproducible technical problem in G.E.N.E Alpha v1.0."
-title: "[Bug] "
+name: 技術的不具合 / Technical Bug Report
+description: 公開可能で再現性のある技術的不具合を報告します。 Report a publicly shareable and reproducible technical problem.
+title: '[Bug] '
+labels:
+- bug
+- needs-triage
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thank you for reporting a technical problem.
+- type: markdown
+  attributes:
+    value: '## 投稿前の確認 / Before submitting
 
-        GitHub Issues are public. Do not include private dialogue history, Persona information, purchase or Founder information, passwords, authentication codes, API keys, private keys, or unredacted logs containing personal information.
 
-        Do not report an unpatched vulnerability here. Use the private route described in the Security Policy.
+      このIssueは公開されます。個人情報、認証情報、購入情報、私的な対話履歴、未修正脆弱性の詳細を投稿しないでください。
 
-  - type: checkboxes
-    id: public-safety
-    attributes:
-      label: "Public-report confirmation"
-      options:
-        - label: "I searched the existing Issues and did not find the same report."
-          required: true
-        - label: "I confirm that this report contains no private, purchase, Founder, authentication, or other sensitive information."
-          required: true
-        - label: "I confirm that this is not an unpatched vulnerability or another non-public Security matter."
-          required: true
-        - label: "I reviewed the Release Information, Known Limitations, and Contact and Support documents."
-          required: true
 
-  - type: dropdown
-    id: release
-    attributes:
-      label: "G.E.N.E release"
-      description: "Select the release associated with the problem."
-      options:
-        - "G.E.N.E Alpha v1.0"
-        - "Other or unknown"
-    validations:
+      This Issue is public. Do not post personal information, credentials, purchase information, private conversation history,
+      or details of an unresolved vulnerability.
+
+
+      Security上の懸念は公開せず、[Security Policy](../../SECURITY.md)の非公開経路を使用してください。 For security concerns, use the private route
+      in the [Security Policy](../../SECURITY.md).'
+- type: checkboxes
+  id: precheck
+  attributes:
+    label: 事前確認 / Pre-submission checks
+    options:
+    - label: 既存Issueを検索し、同じ報告がないことを確認しました。 / I searched existing Issues and did not find the same report.
       required: true
-
-  - type: input
-    id: build
-    attributes:
-      label: "Build identifier"
-      description: "Enter the Build identifier. If it cannot be confirmed, enter Unknown."
-      placeholder: "G.E.N.E_Alpha_v1.0_R10-4D-4_Build-005 or Unknown"
-    validations:
+    - label: 公開してはいけない情報を含めていません。 / I have not included information that should remain private.
       required: true
-
-  - type: textarea
-    id: summary
-    attributes:
-      label: "Problem summary"
-      description: "Describe the problem in one clear paragraph."
-      placeholder: "What happened, and what part of G.E.N.E was affected?"
-    validations:
+    - label: 未修正のSecurity問題ではありません。 / This is not an unresolved security issue.
       required: true
+- type: dropdown
+  id: version
+  attributes:
+    label: G.E.N.E Version / G.E.N.E version
+    description: 問題を確認したVersionを選択してください。 Select the version where the issue occurred.
+    options:
+    - G.E.N.E Alpha v1.0
+    - Other / その他
+    - Unknown / 不明
+  validations:
+    required: true
+- type: input
+  id: build
+  attributes:
+    label: Build ID / Build identifier
+    description: 確認できない場合はUnknownと入力してください。 Enter Unknown if it cannot be confirmed.
+    placeholder: G.E.N.E_Alpha_v1.0_R10-4D-4_Build-005 or Unknown
+  validations:
+    required: true
+- type: dropdown
+  id: category
+  attributes:
+    label: 問題の分類 / Issue category
+    description: 最も近い分類を選択してください。 Select the closest category.
+    options:
+    - 起動・終了 / Startup or shutdown
+    - UI・表示 / UI or display
+    - 保存・読込 / Save or load
+    - Persona
+    - Dialogue History
+    - Summary
+    - Knowledge
+    - Referenceファイル / Reference files
+    - Runtime・Model接続 / Runtime or model connection
+    - 性能・Timeout / Performance or timeout
+    - その他 / Other
+  validations:
+    required: true
+- type: textarea
+  id: windows_environment
+  attributes:
+    label: Windows環境 / Windows environment
+    description: 確認できる情報を記載し、不明な項目はUnknownとしてください。完全なLocal PathやLocal Usernameは記載しないでください。 Provide the information you can
+      confirm and enter Unknown where necessary. Do not include an unredacted full local path or local user name.
+    placeholder: 'Windows version and edition:
 
-  - type: textarea
-    id: steps
-    attributes:
-      label: "Steps to reproduce"
-      description: "List the smallest reliable sequence that reproduces the problem."
-      placeholder: |
-        1. Start G.E.N.E.
-        2. Connect to ...
-        3. Select ...
-        4. Observe ...
-    validations:
-      required: true
+      OS build:
 
-  - type: textarea
-    id: expected
-    attributes:
-      label: "Expected behavior"
-      description: "What did you expect to happen?"
-    validations:
-      required: true
+      CPU:
 
-  - type: textarea
-    id: actual
-    attributes:
-      label: "Actual behavior"
-      description: "What happened instead?"
-    validations:
-      required: true
+      GPU:
 
-  - type: dropdown
-    id: frequency
-    attributes:
-      label: "Reproduction frequency"
-      options:
-        - "Every time"
-        - "Frequently"
-        - "Sometimes"
-        - "Once"
-        - "Unable to reproduce again"
-    validations:
-      required: true
+      RAM / VRAM:
 
-  - type: textarea
-    id: windows
-    attributes:
-      label: "Windows environment"
-      description: "Provide the information you can confirm. Enter Unknown where necessary. Do not include a local user name or an unredacted full path."
-      placeholder: |
-        Windows version:
-        CPU:
-        GPU:
-        RAM:
-        Installation method or location category:
-        Other relevant details:
+      Installation method or location category:
 
-        Example location category:
-        Extracted to a user-managed local folder
+      Example: Extracted to a user-managed local folder
 
-        Redacted path example:
-        C:\Users\<USER>\G.E.N.E
-    validations:
-      required: true
+      Other relevant environment details:'
+  validations:
+    required: true
+- type: textarea
+  id: local_llm
+  attributes:
+    label: 外部ローカルLLM環境 / External local LLM environment
+    description: 該当するRuntimeとModel情報を記載してください。Model接続前に発生した問題はNot applicableとしてください。 Provide applicable runtime and model
+      information. Enter Not applicable if the issue occurred before model connection.
+    placeholder: 'Runtime:
 
-  - type: textarea
-    id: local-llm
-    attributes:
-      label: "External local LLM environment"
-      description: "Provide the applicable runtime and model information. Enter Not applicable if the problem occurred before connecting to a model."
-      placeholder: |
-        Runtime:
-        Runtime version:
-        Model:
-        Model version or tag:
-        Relevant configuration:
+      Runtime version:
 
-        Or:
-        Not applicable
-    validations:
-      required: true
+      Model:
 
-  - type: textarea
-    id: evidence
-    attributes:
-      label: "Publicly safe logs or screenshots"
-      description: "Optional. Remove personal information, dialogue content, local user names, secrets, tokens, and private file paths before posting."
-      placeholder: "Drag and drop a redacted screenshot, or paste a minimal redacted log excerpt."
+      Model version or tag:
 
-  - type: textarea
-    id: additional
-    attributes:
-      label: "Additional context"
-      description: "Add any other publicly safe information needed to understand the issue."
+      Relevant configuration:
+
+      Or: Not applicable'
+  validations:
+    required: true
+- type: textarea
+  id: summary
+  attributes:
+    label: 問題の概要 / Problem summary
+    description: 発生した問題を簡潔に説明してください。 Describe the problem clearly.
+    placeholder: 何が起きたかを簡潔に記載してください。 / Briefly describe what happened.
+  validations:
+    required: true
+- type: textarea
+  id: steps
+  attributes:
+    label: 再現手順 / Steps to reproduce
+    description: 問題が発生するまでの操作を順番に記載してください。 List the actions leading to the issue.
+    placeholder: '1.
+
+      2.
+
+      3.'
+  validations:
+    required: true
+- type: textarea
+  id: expected
+  attributes:
+    label: 期待した動作 / Expected behavior
+    description: 本来どう動作すると考えたかを記載してください。 Describe what you expected to happen.
+  validations:
+    required: true
+- type: textarea
+  id: actual
+  attributes:
+    label: 実際の動作 / Actual behavior
+    description: 実際に発生した動作を記載してください。 Describe what actually happened.
+  validations:
+    required: true
+- type: dropdown
+  id: frequency
+  attributes:
+    label: 再現頻度 / Reproduction frequency
+    options:
+    - 毎回 / Every time
+    - 頻繁 / Frequently
+    - 時々 / Sometimes
+    - 一度だけ / Once
+    - 不明 / Unknown
+  validations:
+    required: true
+- type: textarea
+  id: public_logs
+  attributes:
+    label: 公開可能なLog・画面情報 / Publicly shareable logs or screenshots
+    description: 秘密情報、個人情報、完全なLocal Path、私的対話を除去した内容だけを添付してください。 Attach only material with secrets, personal information,
+      full local paths, and private dialogue removed.
+    placeholder: Drag and drop files here, or enter Not available / 添付できない場合はNot available
+- type: textarea
+  id: workaround
+  attributes:
+    label: 確認済みの回避方法 / Confirmed workaround
+    description: 回避方法がある場合だけ記載してください。 Enter a workaround only if one is known.
+- type: textarea
+  id: additional
+  attributes:
+    label: 補足 / Additional context
+    description: 調査に必要と思われる追加情報があれば記載してください。 Add any other relevant information.
