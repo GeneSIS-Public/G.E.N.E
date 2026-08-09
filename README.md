@@ -40,6 +40,13 @@ G.E.N.E Alpha v1.0は、Project: Code-NOAH Phase 1における最初の公式Rel
 
 機能の詳細と現在の制約は、[Known Limitations](./docs/KNOWN_LIMITATIONS.md)をご確認ください。
 
+## 操作ガイド
+G.E.N.E Alpha v1.0の基本操作を、全編および機能別のDemo動画とともに解説しています。
+| 対象 | リンク |
+|---|---|
+| G.E.N.E Alpha v1.0 | [動画付き操作ガイド（note）](https://note.com/genesis_protocol/n/nf958ee36ad71) |
+| G.E.N.E Alpha v1.0 | [全編操作Demo（YouTube）](https://www.youtube.com/watch?v=pgSwjyARPRI) |
+
 ## Download
 
 G.E.N.E本体は無料です。
