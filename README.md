@@ -114,6 +114,7 @@ Download前確認用の[EULA Copy](./docs/EULA.md)をGitHub上で確認できま
 | 思想・開発背景・連載・公式声明 | [note](https://note.com/genesis_protocol) |
 | 告知・宣伝・開発進捗 | [X](https://x.com/GeneSIS_PRCL) |
 | GeneSIS公式技術領域 | [GitHub Organization](https://github.com/GeneSIS-Public) |
+| 動画・説明・案内 | [Youtube公式チャンネル](https://www.youtube.com/channel/UCFZC86OLvWEd7z4M9PLF98g) |
 
 **GeneSIS by Concept Engineer's HQ.**
 
