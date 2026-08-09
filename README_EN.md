@@ -40,6 +40,15 @@ For details, see [Release Information](./docs/RELEASE_INFORMATION_EN.md).
 
 For details and current limitations, see [Known Limitations](./docs/KNOWN_LIMITATIONS_EN.md).
 
+## Operation Guide
+
+We explain the basic operations of G.E.N.E Alpha v1.0 through a comprehensive overview video as well as feature-specific demo videos.
+
+| Product | Link |
+|---|---|
+| G.E.N.E Alpha v1.0 | [Operation Guide with Video（note）](https://note.com/genesis_protocol/n/nf958ee36ad71) |
+| G.E.N.E Alpha v1.0 | [Full operation demo（YouTube）](https://www.youtube.com/watch?v=pgSwjyARPRI) |
+
 ## Download
 
 The G.E.N.E application is free.
