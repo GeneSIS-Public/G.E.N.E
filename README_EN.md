@@ -123,6 +123,7 @@ A [pre-download EULA review copy](./docs/EULA.md) is available on GitHub. The li
 | Philosophy, development background, serial publications, and official statements | [note](https://note.com/genesis_protocol) |
 | Announcements, promotion, and development progress | [X](https://x.com/GeneSIS_PRCL) |
 | Official GeneSIS technical area | [GitHub Organization](https://github.com/GeneSIS-Public) |
+| Videos, Explanations, and Information | [Official YouTube Channel](https://www.youtube.com/channel/UCFZC86OLvWEd7z4M9PLF98g) |
 
 **GeneSIS by Concept Engineer's HQ.**
 
