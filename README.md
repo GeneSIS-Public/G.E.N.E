@@ -28,6 +28,10 @@ G.E.N.E Alpha v1.0は、Project: Code-NOAH Phase 1における最初の公式Rel
 
 詳しい位置づけは、[Release Information](./docs/RELEASE_INFORMATION.md)をご確認ください。
 
+Concept詳細はこちら[Phase 1 Concept](https://note.com/genesis_protocol/m/m783b9eadca08)
+
+操作案内はこちら[G.E.N.E Alpha v1.0の操作案内](https://note.com/genesis_protocol/n/nf958ee36ad71)
+
 ## Main Functions
 
 - 外部ローカルLLM環境への接続
