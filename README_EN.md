@@ -28,6 +28,10 @@ G.E.N.E Alpha v1.0 was publicly released on 2026-07-31 as the first official rel
 
 For details, see [Release Information](./docs/RELEASE_INFORMATION_EN.md).
 
+Click here for details on the concept.[Phase 1 Concept](https://note.com/genesis_protocol/m/m783b9eadca08)
+
+Click here for operating instructions.[G.E.N.E Alpha v1.0の操作案内](https://note.com/genesis_protocol/n/nf958ee36ad71)
+
 ## Main Functions
 
 - Connection to an external local LLM environment
