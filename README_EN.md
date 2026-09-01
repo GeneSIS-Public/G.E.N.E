@@ -105,11 +105,16 @@ For the complete document list, see the [Documentation Index](./docs/README_EN.m
 
 | Matter | Route |
 |---|---|
+| Short questions about article content, reading order, or basic usage | Quick Questions page on note |
 | Publicly shareable ordinary defects and documentation or development feedback | GitHub Issues |
 | Purchases, Founder verification, terms, rights, privacy, and non-public matters | [Contact and Support](./docs/CONTACT_AND_SUPPORT_EN.md) |
 | Unresolved security issues | [Security Policy](./SECURITY_EN.md) |
 
 Do not post personal information, credentials, purchase information, private conversation history, or details of unresolved vulnerabilities in a public Issue.
+
+Quick Questions page: [Replace before publication: URL of the Quick Questions article]
+
+Comments on the Quick Questions page are public. Use the corresponding route above for formal defect reports, private inquiries, or security reports.
 
 ## Source Repository, Distribution Format, and Terms
 
