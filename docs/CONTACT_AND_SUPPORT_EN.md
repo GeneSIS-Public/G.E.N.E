@@ -1,12 +1,13 @@
 # Contact and Support
 
-- **Document Version:** v0.4
+- **Document Version:** v0.5
 - **Status:** Active
 - **Published By:** GeneSIS
 - **Operating Entity:** GeneSIS-Operator
 - **Applicable To:** GeneSIS / Project: Code-NOAH / G.E.N.E Phase 1 / v1.x
 - **Established:** 2026-07-31
 - **Effective From:** 2026-07-31
+- **Updated:** 2026-09-01
 
 > The Japanese version of this document is the original and authoritative version. If any inconsistency or difference in interpretation arises between this translation and the Japanese version, the Japanese version governs to the extent permitted by applicable law.
 
@@ -16,6 +17,7 @@ This document defines the contact routes, support scope, and basic response poli
 
 | Matter | Contact Route |
 |---|---|
+| Short questions about article content, reading order, or basic usage | Quick Questions page on note |
 | Publicly shareable and reproducible general defects | GitHub Issues — Bug Report |
 | Documentation errors or omissions | GitHub Issues — Documentation Feedback |
 | Development suggestions or feedback | GitHub Issues — Development Feedback |
@@ -26,6 +28,16 @@ This document defines the contact routes, support scope, and basic response poli
 **Official GeneSIS Contact**
 
 `genesis.official.poc@mail.com`
+
+**Quick Questions (note)**
+
+[Replace before publication: URL of the Quick Questions article]
+
+The Quick Questions page accepts short questions about article content, reading order, or basic usage through public comments. Do not use it for formal defect reports, private inquiries, or security reports.
+
+Comments are public. Do not post personal information, purchase information, credentials, private conversation history, details of unresolved vulnerabilities, or other non-public information.
+
+The Quick Questions page does not guarantee a reply to every question or resolution of any issue.
 
 Replies, mentions, and direct messages on X or other social media are not formal support channels.
 
