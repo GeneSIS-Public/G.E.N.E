@@ -31,7 +31,7 @@ This document defines the contact routes, support scope, and basic response poli
 
 **Quick Questions (note)**
 
-[Replace before publication: URL of the Quick Questions article]
+[Quick Questions article](https://note.com/genesis_protocol/n/n6a2a06ad2698)
 
 The Quick Questions page accepts short questions about article content, reading order, or basic usage through public comments. Do not use it for formal defect reports, private inquiries, or security reports.
 
