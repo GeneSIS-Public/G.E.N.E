@@ -1,12 +1,13 @@
 # Contact and Support
 
-- **Document Version:** v0.4
+- **Document Version:** v0.5
 - **Status:** Active
 - **Published By:** GeneSIS
 - **Operating Entity:** GeneSIS-Operator
 - **Applicable To:** GeneSIS / Project: Code-NOAH / G.E.N.E Phase 1 / v1.x
 - **Established:** 2026-07-31
 - **Effective From:** 2026-07-31
+- **Updated:** 2026-09-01
 
 > 本書の日本語版を原文および正本として管理します。英語版その他の翻訳版との間に解釈上の差異がある場合は、適用法令上許される範囲で日本語版を優先します。
 
@@ -16,6 +17,7 @@
 
 | 内容 | 受付経路 |
 |---|---|
+| 記事の内容、読む順番、簡単な使い方に関する短い質問 | note — 簡易質問窓口 |
 | 公開可能で再現性のある通常不具合 | GitHub Issues — Bug Report |
 | 文書の誤り・不足 | GitHub Issues — Documentation Feedback |
 | 開発上の提案・Feedback | GitHub Issues — Development Feedback |
@@ -26,6 +28,16 @@
 **GeneSIS公式窓口**
 
 `genesis.official.poc@mail.com`
+
+**簡易質問窓口（note）**
+
+【公開前差し替え：簡易質問窓口の記事URL】
+
+簡易質問窓口は、記事の内容、読む順番、簡単な使い方に関する短い質問を、公開コメントで受け付けるための経路です。正式な不具合報告、非公開の問い合わせまたはSecurity報告には使用しないでください。
+
+コメントは公開されます。個人情報、購入情報、認証情報、私的な対話履歴、未修正脆弱性の詳細その他の非公開情報を投稿しないでください。
+
+簡易質問窓口を含め、すべての質問への返信または問題の解決を保証するものではありません。
 
 Xを含むSNS上のReply、MentionまたはDirect Messageは、正式なSupport受付経路ではありません。
 
