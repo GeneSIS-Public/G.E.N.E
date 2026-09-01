@@ -103,11 +103,16 @@ Founder Support商品ページ：
 
 | 内容 | 経路 |
 |---|---|
+| 記事の内容・読む順番・簡単な使い方に関する短い質問 | note — 簡易質問窓口 |
 | 公開可能な通常不具合・文書Feedback・開発Feedback | GitHub Issues |
 | 購入・Founder照合・利用条件・権利・Privacy・非公開連絡 | [Contact and Support](./docs/CONTACT_AND_SUPPORT.md) |
 | 未修正のSecurity問題 | [Security Policy](./SECURITY.md) |
 
 公開Issueへ個人情報、認証情報、購入情報、私的な対話履歴または未修正脆弱性の詳細を投稿しないでください。
+
+簡易質問窓口：【公開前差し替え：簡易質問窓口の記事URL】
+
+簡易質問窓口のコメントは公開されます。正式な不具合報告、非公開の問い合わせまたはSecurity報告には、上記の対応する経路をご利用ください。
 
 ## Source Repository、配布形式および利用条件
 
