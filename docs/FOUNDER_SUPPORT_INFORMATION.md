@@ -1,5 +1,6 @@
 # Project: Code-NOAH Phase 1 Founder Support — Information
 
+[English](https://github.com/GeneSIS-Public/G.E.N.E/blob/main/docs/FOUNDER_SUPPORT_INFORMATION_EN.md)
 - **Document Version:** 1.0
 - **Status:** Active
 - **Published By:** GeneSIS
