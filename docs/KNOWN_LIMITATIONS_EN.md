@@ -61,7 +61,7 @@ The following may therefore exist:
 - Settings, formats, or behavior adjusted in a future release
 - Compatibility differences caused by corrections or updates to external environments
 
-For the detailed meaning of Alpha, see [Release Information](./RELEASE_INFORMATION.md).
+For the detailed meaning of Alpha, see [Release Information](./RELEASE_INFORMATION_EN.md).
 
 ## 4. Target Platform
 
@@ -188,13 +188,13 @@ Users should review the settings, documentation, terms, privacy policy, and netw
 
 The GeneSIS-Operator does not control independent data processing or service changes by an external provider.
 
-For the basic handling of G.E.N.E and personal information, see the [Privacy Notice](./PRIVACY_NOTICE.md).
+For the basic handling of G.E.N.E and personal information, see the [Privacy Notice](./PRIVACY_NOTICE_EN.md).
 
 ## 10. Archive Verification and Security Warnings
 
 Before extracting or running an archive, verify the official distribution route, file size, and SHA-256.
 
-Use [Release Verification](./RELEASE_VERIFICATION.md) as the authoritative source for fixed values and verification procedures.
+Use [Release Verification](./RELEASE_VERIFICATION_EN.md) as the authoritative source for fixed values and verification procedures.
 
 A matching SHA-256 confirms that the obtained archive is identical to the fixed official archive. It does not, by itself, guarantee:
 
@@ -209,7 +209,7 @@ The `Release Record Signed Date` is a date associated with the GeneSIS release r
 
 Do not ignore a warning solely because the filename appears correct. Confirm the official route and archive SHA-256.
 
-When an unresolved security issue is suspected, do not disclose details in a public Issue or on social media. Use the private route in the [Security Policy](../SECURITY.md).
+When an unresolved security issue is suspected, do not disclose details in a public Issue or on social media. Use the private route in the [Security Policy](../SECURITY_EN.md).
 
 ## 11. Updates and Future Compatibility
 
@@ -244,7 +244,7 @@ G.E.N.E Alpha v1.0 is not certified for:
 
 Use associated with such activities requires human review, independent verification, and safety measures appropriate to the use case.
 
-Report publicly shareable limitations, documentation issues, or reproducible ordinary defects through the GitHub routes described in [Contact and Support](./CONTACT_AND_SUPPORT.md).
+Report publicly shareable limitations, documentation issues, or reproducible ordinary defects through the GitHub routes described in [Contact and Support](./CONTACT_AND_SUPPORT_EN.md).
 
 Do not post personal information, credentials, private conversations, Founder verification information, or details of unresolved vulnerabilities in a public Issue.
 

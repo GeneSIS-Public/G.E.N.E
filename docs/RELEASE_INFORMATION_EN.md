@@ -1,6 +1,6 @@
 # G.E.N.E Alpha v1.0 — Release Information
 
-- **Document Version:** v0.4
+- **Document Version:** v0.5
 - **Status:** Active — Public Release
 - **Published By:** GeneSIS
 - **Operating Entity:** GeneSIS-Operator
@@ -14,6 +14,7 @@
 - **Official Distribution URL:** https://genesis-protocol.booth.pm/items/8663637
 - **Established:** 2026-07-31
 - **Effective From:** 2026-07-31
+- **Last Updated:** 2026-09-11
 
 > The Japanese version of this document is the original and authoritative version. If any inconsistency or difference in interpretation arises between this translation and the Japanese version, the Japanese version governs to the extent permitted by applicable law.
 
@@ -39,7 +40,7 @@ Official archive name:
 G.E.N.E_Alpha_v1.0_Windows_x64.zip
 ```
 
-For the archive size, SHA-256, Release Identity, and verification procedure, use [Release Verification](./RELEASE_VERIFICATION.md) as the authoritative source.
+For the archive size, SHA-256, Release Identity, and verification procedure, use [Release Verification](./RELEASE_VERIFICATION_EN.md) as the authoritative source.
 
 ## 2. What G.E.N.E Is
 
@@ -71,7 +72,7 @@ Performance, output quality, language ability, and behavior vary depending on th
 
 G.E.N.E does not guarantee identical operation or answers across all combinations.
 
-For current limitations, unverified areas, and usage notes, see [Known Limitations](./KNOWN_LIMITATIONS.md).
+For current limitations, unverified areas, and usage notes, see [Known Limitations](./KNOWN_LIMITATIONS_EN.md).
 
 ## 4. Local Operation and Data
 
@@ -83,7 +84,7 @@ Information voluntarily submitted for a defect report or inquiry is handled only
 
 Connected external software, models, or services may have their own network behavior, terms, or information-handling practices.
 
-For details, see the [Privacy Notice](./PRIVACY_NOTICE.md).
+For details, see the [Privacy Notice](./PRIVACY_NOTICE_EN.md).
 
 ## 5. Meaning of Alpha v1.0
 
@@ -129,13 +130,13 @@ The G.E.N.E application archive in the free distribution and the initial Founder
 
 Founder Support is not the purchase of an upgraded edition of G.E.N.E. It is express participation in and support for Project: Code-NOAH Phase 1.
 
-Use the [Founder Terms](./FOUNDER_TERMS.md) as the sole authoritative source for Founder status, price, later deliverables, absence of guaranteed delivery dates, and other Founder conditions.
+For formal conditions concerning Founder status, price, Founder Deliverables, Supplemental / Additional Deliverables, non-guaranteed delivery timing, and other Founder conditions, use the Japanese Founder Terms TXT included in the Current Founder Initial Package as authoritative. The GitHub [Founder Terms](./FOUNDER_TERMS_EN.md) are an English Reference Translation for pre-purchase review.
+
+Current Founder Deliverables, Supplemental / Additional Deliverables, later deliverables, and related documents are consolidated in [Founder Support Information](./FOUNDER_SUPPORT_INFORMATION_EN.md).
 
 Founder Support product page:
 
 https://genesis-protocol.booth.pm/items/8664431
-
-O-type Generator Founder Edition and Gene-ScrIbe ConSole Founder Edition are Founder Deliverables separate from the free G.E.N.E application package.
 
 ## 7. Distribution Policy
 
@@ -151,7 +152,7 @@ Later v1.x releases will be added as separately versioned files.
 
 An existing official archive will not be silently replaced under the same filename.
 
-The G.E.N.E free-product page distributes official G.E.N.E v1.x releases. O-type Generator Founder Edition and Gene-ScrIbe ConSole Founder Edition are handled separately under the Founder Support terms and delivery route.
+The G.E.N.E free-product page distributes official G.E.N.E v1.x releases. Founder Deliverables and Supplemental / Additional Deliverables under Founder Support are handled separately under the Founder Support terms and delivery route. Review Founder Support Information for the current delivery scope.
 
 ## 8. Official Information Sources
 
@@ -170,9 +171,9 @@ GitHub is not the authoritative source for payment, purchase records, or Founder
 
 ### Contact
 
-Use GitHub Issues for publicly shareable ordinary defects. Use the routes described in [Contact and Support](./CONTACT_AND_SUPPORT.md) for purchases, Founder verification, rights, privacy, and other non-public matters.
+Use GitHub Issues for publicly shareable ordinary defects. Use the routes described in [Contact and Support](./CONTACT_AND_SUPPORT_EN.md) for purchases, Founder verification, rights, privacy, and other non-public matters.
 
-Use the private route in the [Security Policy](../SECURITY.md) for unresolved security issues.
+Use the private route in the [Security Policy](../SECURITY_EN.md) for unresolved security issues.
 
 ## 9. Source Repository, Distribution Format, and Terms
 

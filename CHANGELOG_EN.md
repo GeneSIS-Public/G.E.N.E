@@ -63,11 +63,11 @@ G.E.N.E Alpha v1.0 is the first official public release in Project: Code-NOAH Ph
 
 ### Verification
 
-For the official archive filename, file size, SHA-256, Release Identity, and verification procedures, use [Release Verification](./docs/RELEASE_VERIFICATION.md) as the authoritative source.
+For the official archive filename, file size, SHA-256, Release Identity, and verification procedures, use [Release Verification](./docs/RELEASE_VERIFICATION_EN.md) as the authoritative source.
 
 ### Known Limitations
 
-For supported environments, unverified areas, external runtime and model dependencies, backup requirements, and future compatibility, see [Known Limitations](./docs/KNOWN_LIMITATIONS.md).
+For supported environments, unverified areas, external runtime and model dependencies, backup requirements, and future compatibility, see [Known Limitations](./docs/KNOWN_LIMITATIONS_EN.md).
 
 ### Notes
 
@@ -75,7 +75,7 @@ For supported environments, unverified areas, external runtime and model depende
 
 The minimum G.E.N.E specification defined for this release has been implemented and tested. Operational history after public distribution, compatibility information, and combination testing with external runtimes and models remain at an early stage.
 
-For the detailed release position, see [Release Information](./docs/RELEASE_INFORMATION.md).
+For the detailed release position, see [Release Information](./docs/RELEASE_INFORMATION_EN.md).
 
 ---
 

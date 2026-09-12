@@ -1,6 +1,6 @@
 # G.E.N.E Alpha v1.0 — Release Information
 
-- **Document Version:** v0.4
+- **Document Version:** v0.5
 - **Status:** Active — Public Release
 - **Published By:** GeneSIS
 - **Operating Entity:** GeneSIS-Operator
@@ -14,6 +14,7 @@
 - **Official Distribution URL:** https://genesis-protocol.booth.pm/items/8663637
 - **Established:** 2026-07-31
 - **Effective From:** 2026-07-31
+- **Last Updated:** 2026-09-11
 
 > 本書の日本語版を原文および正本として管理します。英語版その他の翻訳版との間に解釈上の差異がある場合は、適用法令上許される範囲で日本語版を優先します。
 
@@ -129,13 +130,13 @@ G.E.N.E Alpha v1.0本体は無料で配布します。
 
 Founder SupportはG.E.N.Eの上位版購入ではなく、Project: Code-NOAH Phase 1への明示的な参加・支援です。
 
-Founder資格、価格、後日提供対象、期限非保証その他の条件は、[Founder Terms](./FOUNDER_TERMS.md)だけを正本として確認してください。
+Founder資格、価格、Founder成果物、Supplemental / Additional Deliverable、期限非保証その他の正式条件は、Current Founder初期Packageに同梱された日本語Founder Terms TXTを正本として確認してください。GitHub上の[Founder Terms](./FOUNDER_TERMS.md)は購入前確認用Public Reference Copyです。
+
+現在提供中のFounder成果物、Supplemental / Additional Deliverable、後日提供対象および関連文書は、[Founder Support Information](./FOUNDER_SUPPORT_INFORMATION.md)に集約しています。
 
 Founder Support商品ページ：
 
 https://genesis-protocol.booth.pm/items/8664431
-
-O-type Generator Founder EditionおよびGene-ScrIbe ConSole Founder Editionは、無料のG.E.N.E Application Packageとは別のFounder成果物です。
 
 ## 7. 配布方針
 
@@ -151,7 +152,7 @@ https://genesis-protocol.booth.pm/items/8663637
 
 既存の公式Archiveを、同名Fileのまま無言で差し替えません。
 
-G.E.N.E無料商品ページでは、G.E.N.E v1.xの公式Releaseを配布します。O-type Generator Founder EditionおよびGene-ScrIbe ConSole Founder Editionは、Founder Supportの条件と提供経路に従って別に取り扱います。
+G.E.N.E無料商品ページでは、G.E.N.E v1.xの公式Releaseを配布します。Founder Supportに関するFounder成果物およびSupplemental / Additional Deliverableは、Founder Supportの条件と提供経路に従って別に取り扱います。Currentな提供対象はFounder Support Informationを確認してください。
 
 ## 8. 公式情報源
 

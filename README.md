@@ -66,6 +66,7 @@ G.E.N.E本体は無料です。
 Founder Support商品ページ：
 
 - [Project: Code-NOAH Phase 1 Founder Support](https://genesis-protocol.booth.pm/items/8664431)
+- [Founder Support Information](./docs/FOUNDER_SUPPORT_INFORMATION.md)
 
 支払い、Founder Supportへの参加、BOOSTその他の追加支援の有無によって、対応するG.E.N.E本体の機能は変わりません。
 
@@ -95,7 +96,8 @@ Founder Support商品ページ：
 ### Terms and Founder
 
 - [EULA — Download前確認用Copy](./docs/EULA.md)
-- [Founder Terms](./docs/FOUNDER_TERMS.md)
+- [Founder Terms — Public Reference Copy](./docs/FOUNDER_TERMS.md)
+- [Founder Support Information](./docs/FOUNDER_SUPPORT_INFORMATION.md)
 
 文書一覧と英語公式翻訳は、[Documentation Index](./docs/README.md)をご確認ください。
 
@@ -110,7 +112,7 @@ Founder Support商品ページ：
 
 公開Issueへ個人情報、認証情報、購入情報、私的な対話履歴または未修正脆弱性の詳細を投稿しないでください。
 
-簡易質問窓口：【公開前差し替え：簡易質問窓口の記事URL】
+簡易質問窓口：[GeneSIS_簡易窓口](https://note.com/genesis_protocol/n/n6a2a06ad2698)
 
 簡易質問窓口のコメントは公開されます。正式な不具合報告、非公開の問い合わせまたはSecurity報告には、上記の対応する経路をご利用ください。
 

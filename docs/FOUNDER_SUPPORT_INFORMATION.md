@@ -1,7 +1,7 @@
 # Project: Code-NOAH Phase 1 Founder Support — Information
 
 [English](https://github.com/GeneSIS-Public/G.E.N.E/blob/main/docs/FOUNDER_SUPPORT_INFORMATION_EN.md)
-- **Document Version:** 1.0
+- **Document Version:** 1.1
 - **Status:** Active
 - **Published By:** GeneSIS
 - **Applicable Project:** `Project: Code-NOAH`
@@ -20,7 +20,7 @@ BOOTHの商品紹介文だけでは収録しきれない情報を補完し、Fou
 本書は現在、Public Documentation管理上の入口としてG.E.N.E Repository内に配置します。  
 この配置は、Overoutその他の成果物がG.E.N.Eの下位Productであることを意味しません。
 
-Founder資格、権利、提供条件、対象Update、譲渡、取消し・返金その他の正式条件については、[Founder Terms](./FOUNDER_TERMS.md)を正本とします。
+Founder資格、権利、提供条件、対象Update、譲渡、取消し・返金その他の正式条件については、Founder初期Packageに同梱された日本語Founder Terms TXTを正本とします。GitHub上の[Founder Terms](./FOUNDER_TERMS.md)は、購入前確認用の同一Version Public Reference Copyです。
 
 各Applicationの利用条件については、それぞれの正式Release Packageに同梱されたEULAを正本とします。
 
@@ -49,8 +49,8 @@ https://genesis-protocol.booth.pm/items/8664431
 
 ### 3.1 Founder Support共通
 
-- [Founder Terms](./FOUNDER_TERMS.md)  
-  Founder資格、提供成果物、対象Update、権利、譲渡、Support、取消し・返金その他のFounder条件を定める正本です。
+- [Founder Terms — Public Reference Copy](./FOUNDER_TERMS.md)
+  Founder資格、Founder成果物、Supplemental / Additional Deliverable、対象Update、権利、譲渡、Support、取消し・返金その他のFounder条件を確認できます。正本はCurrent Founder初期Packageに同梱された日本語Founder Terms TXTです。
 
 - [Privacy Notice](./PRIVACY_NOTICE.md)  
   Founder確認、問い合わせその他に関連する個人情報等の取扱いを確認できます。
@@ -109,31 +109,34 @@ https://genesis-protocol.booth.pm/items/8664431
 
 ---
 
-## 4. 現在提供中のFounder成果物
+## 4. 現在提供中のFounder成果物・Additional Deliverables
 
 ### 4.1 Founder初期Package
 
-**Status:** Available
+**Status:** Current / Active
+**Package Version:** `v1.1`
 
-**File:**  
-`G.E.N.E_Phase1_Founder_Package_v1.0.zip`
+**File:**
+`Project_Code-NOAH_Phase1_Founder_Package_v1.1.zip`
 
-**File Size:**  
-`79,522,973 bytes`
+**File Size:**
+`79,527,061 bytes`
 
-**SHA-256:**  
-`2b7b27318e83eea008d56ece6a4bfd64c0d34b04e1b2ae55c542621d2d218a39`
+**SHA-256:**
+`1696a479c2945662d36d766d0283e88546434f203b13b0f4dd2c156cf64d07d0`
 
 主な収録内容:
 
 - 無料配布版と同一の公式G.E.N.E Alpha v1.0 Archive
 - README FIRST
-- Founder参加条件書
-- Founder提供方針
-- Package Manifest
+- Founder参加条件書 v1.1
+- Founder提供方針 v1.1
+- Package Manifest v1.1
 - Detached Ed25519 Signature
 - Release署名公開鍵情報
 - SHA-256一覧
+
+v1.1では、Project: Code-NOAHとG.E.N.EにおけるPhase表現の関係、Founder成果物とSupplemental / Additional Deliverableの区分、およびPhase成果物とFounder向け提供対象の境界を明確化しました。v1.0で既に成立したFounder資格、既に提供済みの内容、またはv1.0で明示されたFounder成果物の提供範囲を縮小するRevisionではありません。
 
 Founder SupportやBOOSTによって、収録されるG.E.N.E Alpha v1.0のApplication機能が追加解放、制限または変更されることはありません。
 
@@ -182,7 +185,7 @@ https://github.com/GeneSIS-Public/Overout
 
 Overout v1.0.0のAdditional Deliverable追加によって、これら既存のFounder成果物の意味、定義または提供方針を置き換えるものではありません。
 
-正式条件と対象範囲は[Founder Terms](./FOUNDER_TERMS.md)を正本とします。
+正式条件と対象範囲はCurrent Founder初期Packageに同梱された日本語Founder Terms TXTを正本とします。GitHub版は[Founder Terms — Public Reference Copy](./FOUNDER_TERMS.md)として確認できます。
 
 ---
 
@@ -246,6 +249,8 @@ Password、2段階認証Code、Backup Code、秘密鍵または完全な決済�
 - Founder Supportの購入前確認、成果物、Additional Deliverables、公式文書への導線を集約。
 - Overout v1.0.0をAdditional Deliverableとして記録。
 - Overout v1.0.0 Standalone Productの一般公開日を`2026-09-11`として記録。
+- Founder初期Packageをv1.1へRevisionし、Current Package情報を更新。
+- Founder Terms v1.1に合わせ、Project PhaseとG.E.N.E Phaseの同期関係、およびFounder成果物とSupplemental / Additional Deliverableの区分を明確化。
 
 ---
 

@@ -1,16 +1,17 @@
 # Privacy Notice
 
-- **Document Version:** v0.6
+- **Document Version:** v0.7
 - **Status:** Active
 - **Published By:** GeneSIS
 - **個人情報等の取扱責任者:** GeneSIS-Operator
-- **Applicable To:** GeneSIS / Project: Code-NOAH / G.E.N.E Phase 1 / v1.x
+- **Applicable To:** GeneSIS / G.E.N.E v1.x / Project: Code-NOAH Phase 1 Founder Support
 - **Established:** 2026-07-31
 - **Effective From:** 2026-07-31
+- **Last Updated:** 2026-09-11
 
 > 本書の日本語版を原文および正本として管理します。英語版その他の翻訳版との間に解釈上の差異がある場合は、適用法令上許される範囲で日本語版を優先します。
 
-本書は、GeneSIS-Operatorが、GeneSIS、Project: Code-NOAHおよびG.E.N.Eに関連して取り扱う個人情報等の基本方針を定めます。
+本書は、GeneSIS-Operatorが、GeneSIS、G.E.N.E v1.xおよびProject: Code-NOAH Phase 1 Founder Supportに関連して取り扱う個人情報等の基本方針を定めます。別Productに個別のPrivacy Noticeがある場合、そのProduct固有の利用・問い合わせに関する取扱いは当該Privacy Noticeも確認してください。
 
 ## 1. 取扱責任者
 

@@ -33,7 +33,8 @@ G.E.N.Eの公式文書一覧です。
 
 | 文書 | 内容 |
 |---|---|
-| [Founder Terms](./FOUNDER_TERMS.md) | Founder資格、参加条件、後日提供対象 |
+| [Founder Terms](./FOUNDER_TERMS.md) | Founder資格、参加条件、Founder成果物とAdditional Deliverableの条件。Package同梱日本語TXTが正本 |
+| [Founder Support Information](./FOUNDER_SUPPORT_INFORMATION.md) | 現在提供中のFounder成果物、Additional Deliverables、後日提供対象、公式導線 |
 
 ## English
 
@@ -47,6 +48,7 @@ EULAは正式配布Archiveと同一本文の日本語正本です。英語公式
 - [Security Policy — English](../SECURITY_EN.md)
 - [Privacy Notice — English](./PRIVACY_NOTICE_EN.md)
 - [Founder Terms — English](./FOUNDER_TERMS_EN.md)
+- [Founder Support Information — English](./FOUNDER_SUPPORT_INFORMATION_EN.md)
 
 ---
 

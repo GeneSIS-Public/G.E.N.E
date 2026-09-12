@@ -33,7 +33,8 @@ The Japanese version is maintained under the standard filename as the original a
 
 | Document | Purpose |
 |---|---|
-| [Founder Terms](./FOUNDER_TERMS_EN.md) | Founder status, participation conditions, and later deliverables |
+| [Founder Terms](./FOUNDER_TERMS_EN.md) | English reference translation of Founder status, participation conditions, Founder Deliverables, and Additional Deliverables |
+| [Founder Support Information](./FOUNDER_SUPPORT_INFORMATION_EN.md) | Current Founder Deliverables, Additional Deliverables, later deliverables, and official routes |
 
 The EULA is provided in Japanese as the authoritative text for this release. No official English translation of the EULA is provided for Alpha v1.0.
 
@@ -47,6 +48,7 @@ The EULA is provided in Japanese as the authoritative text for this release. No 
 - [Security Policy — Japanese](../SECURITY.md)
 - [Privacy Notice — Japanese](./PRIVACY_NOTICE.md)
 - [Founder Terms — Japanese](./FOUNDER_TERMS.md)
+- [Founder Support Information — Japanese](./FOUNDER_SUPPORT_INFORMATION.md)
 
 ---
 

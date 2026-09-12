@@ -68,6 +68,7 @@ Direct free-product URL:
 Founder Support product page:
 
 - [Project: Code-NOAH Phase 1 Founder Support](https://genesis-protocol.booth.pm/items/8664431)
+- [Founder Support Information](./docs/FOUNDER_SUPPORT_INFORMATION_EN.md)
 
 Payment, Founder Support participation, BOOST, or other additional support does not change the functions of the corresponding G.E.N.E application.
 
@@ -97,7 +98,8 @@ Payment, Founder Support participation, BOOST, or other additional support does 
 ### Terms and Founder
 
 - [EULA — Pre-Download Review Copy](./docs/EULA.md)
-- [Founder Terms](./docs/FOUNDER_TERMS_EN.md)
+- [Founder Terms — English Reference Translation](./docs/FOUNDER_TERMS_EN.md)
+- [Founder Support Information](./docs/FOUNDER_SUPPORT_INFORMATION_EN.md)
 
 For the complete document list, see the [Documentation Index](./docs/README_EN.md).
 
@@ -112,7 +114,7 @@ For the complete document list, see the [Documentation Index](./docs/README_EN.m
 
 Do not post personal information, credentials, purchase information, private conversation history, or details of unresolved vulnerabilities in a public Issue.
 
-Quick Questions page: [Replace before publication: URL of the Quick Questions article]
+Quick Questions page: [GeneSIS Quick Questions](https://note.com/genesis_protocol/n/n6a2a06ad2698)
 
 Comments on the Quick Questions page are public. Use the corresponding route above for formal defect reports, private inquiries, or security reports.
 

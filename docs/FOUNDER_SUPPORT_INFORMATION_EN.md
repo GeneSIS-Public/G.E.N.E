@@ -2,7 +2,7 @@
 
 [日本語](./FOUNDER_SUPPORT_INFORMATION.md)
 
-- **Document Version:** 1.0
+- **Document Version:** 1.1
 - **Status:** Active
 - **Published By:** GeneSIS
 - **Applicable Project:** `Project: Code-NOAH`
@@ -21,7 +21,7 @@ Its purpose is to supplement information that cannot reasonably fit within the B
 This document is currently placed in the G.E.N.E Repository as an entry point for Public Documentation management.  
 This placement does not mean that Overout or any other deliverable is a subordinate Product of G.E.N.E.
 
-For formal conditions concerning Founder status, rights, delivery conditions, eligible Updates, transfer, cancellation, refunds, and other Founder conditions, the Japanese [Founder Terms](./FOUNDER_TERMS.md) are authoritative.
+For formal conditions concerning Founder status, rights, delivery conditions, eligible Updates, transfer, cancellation, refunds, and other Founder conditions, the Japanese Founder Terms TXT included in the Current Founder Initial Package is authoritative. The GitHub [Founder Terms](./FOUNDER_TERMS.md) are the same-Version Public Reference Copy for pre-purchase review.
 
 For the terms of use of each Application, the EULA included in the respective official Release Package is authoritative.
 
@@ -50,8 +50,8 @@ https://genesis-protocol.booth.pm/items/8664431
 
 ### 3.1 Founder Support — Common Information
 
-- [Founder Terms — Japanese Original / Authoritative](./FOUNDER_TERMS.md)  
-  Defines Founder status, provided deliverables, eligible Updates, rights, transfer, Support, cancellation, refunds, and other Founder conditions.
+- [Founder Terms — Japanese Public Reference Copy](./FOUNDER_TERMS.md)
+  Provides the same-Version pre-purchase reference for Founder status, Founder Deliverables, Supplemental / Additional Deliverables, eligible Updates, rights, transfer, Support, cancellation, refunds, and other Founder conditions. The Japanese TXT included in the Current Founder Initial Package is authoritative.
 
 - [Founder Terms — English Reference Translation](./FOUNDER_TERMS_EN.md)  
   English reference translation of the Founder Terms. The Japanese original remains authoritative.
@@ -116,31 +116,34 @@ https://genesis-protocol.booth.pm/items/8664431
 
 ---
 
-## 4. Currently Available Founder Deliverables
+## 4. Currently Available Founder Deliverables and Additional Deliverables
 
 ### 4.1 Founder Initial Package
 
-**Status:** Available
+**Status:** Current / Active
+**Package Version:** `v1.1`
 
-**File:**  
-`G.E.N.E_Phase1_Founder_Package_v1.0.zip`
+**File:**
+`Project_Code-NOAH_Phase1_Founder_Package_v1.1.zip`
 
-**File Size:**  
-`79,522,973 bytes`
+**File Size:**
+`79,527,061 bytes`
 
-**SHA-256:**  
-`2b7b27318e83eea008d56ece6a4bfd64c0d34b04e1b2ae55c542621d2d218a39`
+**SHA-256:**
+`1696a479c2945662d36d766d0283e88546434f203b13b0f4dd2c156cf64d07d0`
 
 Main contents:
 
 - The same official G.E.N.E Alpha v1.0 Archive distributed through the free product
 - README FIRST
-- Founder Participation Terms
-- Founder Deliverables Policy
-- Package Manifest
+- Founder Participation Terms v1.1
+- Founder Delivery Policy v1.1
+- Package Manifest v1.1
 - Detached Ed25519 Signature
 - Release signing public-key information
 - SHA-256 inventory
+
+v1.1 clarifies the synchronized relationship between the Project: Code-NOAH Phase and G.E.N.E Phase expressions, distinguishes Founder Deliverables from Supplemental / Additional Deliverables, and clarifies the boundary between Phase Deliverables and items actually provided through Founder Support. It is not a Revision intended to reduce Founder status already established under v1.0, content already provided, or the scope of Founder Deliverables expressly defined under v1.0.
 
 Founder Support or BOOST does not unlock, restrict, or otherwise change the Application functionality of the included G.E.N.E Alpha v1.0.
 
@@ -189,7 +192,7 @@ No specific completion date, delivery date, delivery month, or development perio
 
 The addition of Overout v1.0.0 as an Additional Deliverable does not replace the meaning, definition, or delivery policy of these existing Founder deliverables.
 
-The Japanese [Founder Terms](./FOUNDER_TERMS.md) are authoritative for formal conditions and scope.
+The Japanese Founder Terms TXT included in the Current Founder Initial Package is authoritative for formal conditions and scope. The GitHub [Founder Terms](./FOUNDER_TERMS.md) are the same-Version Public Reference Copy.
 
 ---
 

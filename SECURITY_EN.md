@@ -141,7 +141,7 @@ The following are generally not security reports:
 - AI or LLM answer content or quality
 - Questions about purchases, terms, rights, privacy, or Founder status
 
-For ordinary defects and general inquiries, see [Contact and Support](./docs/CONTACT_AND_SUPPORT.md).
+For ordinary defects and general inquiries, see [Contact and Support](./docs/CONTACT_AND_SUPPORT_EN.md).
 
 ---
 

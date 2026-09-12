@@ -1,17 +1,17 @@
 # Contact and Support
 
-- **Document Version:** v0.5
+- **Document Version:** v0.6
 - **Status:** Active
 - **Published By:** GeneSIS
 - **Operating Entity:** GeneSIS-Operator
-- **Applicable To:** GeneSIS / Project: Code-NOAH / G.E.N.E Phase 1 / v1.x
+- **Applicable To:** GeneSIS / G.E.N.E v1.x / Project: Code-NOAH Phase 1 Founder Support
 - **Established:** 2026-07-31
 - **Effective From:** 2026-07-31
-- **Updated:** 2026-09-01
+- **Updated:** 2026-09-11
 
 > The Japanese version of this document is the original and authoritative version. If any inconsistency or difference in interpretation arises between this translation and the Japanese version, the Japanese version governs to the extent permitted by applicable law.
 
-This document defines the contact routes, support scope, and basic response policy for GeneSIS and G.E.N.E.
+This document defines the contact routes, Support scope, and basic response policy for GeneSIS, G.E.N.E v1.x, and Project: Code-NOAH Phase 1 Founder Support. If another Product has its own Contact and Support document, use that document for Product-specific inquiries.
 
 ## 1. Contact Routes
 
@@ -23,7 +23,7 @@ This document defines the contact routes, support scope, and basic response poli
 | Development suggestions or feedback | GitHub Issues — Development Feedback |
 | Purchases, Founder verification, terms, rights, or privacy | Official GeneSIS contact |
 | Non-public defects and other private matters | Official GeneSIS contact |
-| Unresolved security issues | Private route described in the [Security Policy](../SECURITY.md) |
+| Unresolved security issues | Private route described in the [Security Policy](../SECURITY_EN.md) |
 
 **Official GeneSIS Contact**
 
@@ -84,7 +84,7 @@ For Founder verification, GeneSIS may request information such as a BOOTH order 
 
 GeneSIS will not request passwords, two-factor authentication codes, backup codes, credit card numbers, or other authentication or payment credentials.
 
-For personal information handling and privacy requests, see the [Privacy Notice](./PRIVACY_NOTICE.md).
+For personal information handling and privacy requests, see the [Privacy Notice](./PRIVACY_NOTICE_EN.md).
 
 ## 4. Security Reports
 
@@ -92,7 +92,7 @@ Do not post unresolved security issues in public Issues or on social media.
 
 When GitHub Private Vulnerability Reporting is enabled, use that route. If it is unavailable, contact the official GeneSIS address with the subject `[Security Report]`.
 
-The [Security Policy](../SECURITY.md) governs scope, report contents, and disclosure handling.
+The [Security Policy](../SECURITY_EN.md) governs scope, report contents, and disclosure handling.
 
 ## 5. Support Scope
 
@@ -143,10 +143,11 @@ GeneSIS may limit or end communication in cases involving abuse, threats, harass
 ## 7. Related Documents
 
 - Terms for using G.E.N.E: the EULA included in the official distribution package
-- Security reports: [Security Policy](../SECURITY.md)
-- Personal information: [Privacy Notice](./PRIVACY_NOTICE.md)
-- Founder participation: [Founder Terms](./FOUNDER_TERMS.md)
-- Supported environments and limitations: [Known Limitations](./KNOWN_LIMITATIONS.md)
+- Security reports: [Security Policy](../SECURITY_EN.md)
+- Personal information: [Privacy Notice](./PRIVACY_NOTICE_EN.md)
+- Founder participation: [Founder Terms](./FOUNDER_TERMS_EN.md)
+- Current Founder delivery information: [Founder Support Information](./FOUNDER_SUPPORT_INFORMATION_EN.md)
+- Supported environments and limitations: [Known Limitations](./KNOWN_LIMITATIONS_EN.md)
 
 This document is not a service level agreement and does not guarantee individual handling, replies, corrections, or action within a specified period.
 

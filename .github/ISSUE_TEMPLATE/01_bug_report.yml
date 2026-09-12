@@ -17,8 +17,8 @@ body:
       or details of an unresolved vulnerability.
 
 
-      Security上の懸念は公開せず、[Security Policy](../../SECURITY.md)の非公開経路を使用してください。 For security concerns, use the private route
-      in the [Security Policy](../../SECURITY.md).'
+      Security上の懸念は公開せず、[GitHub Security](https://github.com/GeneSIS-Public/G.E.N.E/security)の非公開経路を使用してください。 For security concerns, use the private route
+      in the [GitHub Security](https://github.com/GeneSIS-Public/G.E.N.E/security).'
 - type: checkboxes
   id: precheck
   attributes:

@@ -1,16 +1,17 @@
 # Privacy Notice
 
-- **Document Version:** v0.6
+- **Document Version:** v0.7
 - **Status:** Active
 - **Published By:** GeneSIS
 - **Responsible Operator:** GeneSIS-Operator
-- **Applicable To:** GeneSIS / Project: Code-NOAH / G.E.N.E Phase 1 / v1.x
+- **Applicable To:** GeneSIS / G.E.N.E v1.x / Project: Code-NOAH Phase 1 Founder Support
 - **Established:** 2026-07-31
 - **Effective From:** 2026-07-31
+- **Last Updated:** 2026-09-11
 
 > The Japanese version of this document is the original and authoritative version. If any inconsistency or difference in interpretation arises between this translation and the Japanese version, the Japanese version governs to the extent permitted by applicable law.
 
-This Notice defines the basic policy for information handled by the GeneSIS-Operator in connection with GeneSIS, Project: Code-NOAH, and G.E.N.E.
+This Notice defines the basic policy for information handled by the GeneSIS-Operator in connection with GeneSIS, G.E.N.E v1.x, and Project: Code-NOAH Phase 1 Founder Support. If another Product has its own Privacy Notice, review that Notice as well for Product-specific use and inquiries.
 
 ## 1. Responsible Operator
 
@@ -171,13 +172,13 @@ Suggested subject:
 [Privacy]
 ```
 
-For general contact instructions, see [Contact and Support](./CONTACT_AND_SUPPORT.md).
+For general contact instructions, see [Contact and Support](./CONTACT_AND_SUPPORT_EN.md).
 
 ## 10. Data Incident Response
 
 When a leak, loss, damage, or other incident involving personal information is identified, the GeneSIS-Operator reviews the scope and may consider access restriction, credential changes, notice to affected individuals, reports to the platform, reports to relevant authorities, or other appropriate action.
 
-Do not post unresolved security issues in public Issues or on social media. Use the private route in the [Security Policy](../SECURITY.md).
+Do not post unresolved security issues in public Issues or on social media. Use the private route in the [Security Policy](../SECURITY_EN.md).
 
 ## 11. Changes to This Notice
 

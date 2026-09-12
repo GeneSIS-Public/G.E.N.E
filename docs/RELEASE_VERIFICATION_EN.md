@@ -152,9 +152,9 @@ Do not treat a file as the official archive when any of the following does not m
 
 First, obtain the file again from the official GeneSIS BOOTH page.
 
-If the values still do not match, do not run or extract the file. Contact the official GeneSIS route described in [Contact and Support](./CONTACT_AND_SUPPORT.md).
+If the values still do not match, do not run or extract the file. Contact the official GeneSIS route described in [Contact and Support](./CONTACT_AND_SUPPORT_EN.md).
 
-When an unresolved security issue is suspected, do not post details in a public Issue or on social media. Use the private route in the [Security Policy](../SECURITY.md).
+When an unresolved security issue is suspected, do not post details in a public Issue or on social media. Use the private route in the [Security Policy](../SECURITY_EN.md).
 
 ## 7. Release Archive Verification Evidence
 

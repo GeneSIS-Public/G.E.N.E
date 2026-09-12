@@ -1,17 +1,17 @@
 # Contact and Support
 
-- **Document Version:** v0.5
+- **Document Version:** v0.6
 - **Status:** Active
 - **Published By:** GeneSIS
 - **Operating Entity:** GeneSIS-Operator
-- **Applicable To:** GeneSIS / Project: Code-NOAH / G.E.N.E Phase 1 / v1.x
+- **Applicable To:** GeneSIS / G.E.N.E v1.x / Project: Code-NOAH Phase 1 Founder Support
 - **Established:** 2026-07-31
 - **Effective From:** 2026-07-31
-- **Updated:** 2026-09-01
+- **Updated:** 2026-09-11
 
 > 本書の日本語版を原文および正本として管理します。英語版その他の翻訳版との間に解釈上の差異がある場合は、適用法令上許される範囲で日本語版を優先します。
 
-本書は、GeneSISおよびG.E.N.Eに関する問い合わせ経路、Support範囲および基本的な対応方針を定めます。
+本書は、GeneSIS、G.E.N.E v1.xおよびProject: Code-NOAH Phase 1 Founder Supportに関する問い合わせ経路、Support範囲および基本的な対応方針を定めます。別Productに個別のContact and Supportがある場合、そのProduct固有の問い合わせは当該文書を確認してください。
 
 ## 1. 受付経路
 
@@ -146,6 +146,7 @@ GeneSISは個人運営であるため、健康、生活、資金、技術的事�
 - Security報告：[Security Policy](../SECURITY.md)
 - 個人情報：[Privacy Notice](./PRIVACY_NOTICE.md)
 - Founder参加：[Founder Terms](./FOUNDER_TERMS.md)
+- Founder提供状況：[Founder Support Information](./FOUNDER_SUPPORT_INFORMATION.md)
 - 対応環境・制約：[Known Limitations](./KNOWN_LIMITATIONS.md)
 
 本書は、個別対応、返信、修正または一定期間内の対応を保証するService Level Agreementではありません。

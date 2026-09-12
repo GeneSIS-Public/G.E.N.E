@@ -14,8 +14,8 @@ body:
       or private information.
 
 
-      利用条件、Founder資格、Privacy等の非公開相談は[Contact and Support](../../docs/CONTACT_AND_SUPPORT.md)を使用してください。 For private questions
-      concerning terms, Founder status, or privacy, use [Contact and Support](../../docs/CONTACT_AND_SUPPORT.md).'
+      利用条件、Founder資格、Privacy等の非公開相談は[Contact and Support](https://github.com/GeneSIS-Public/G.E.N.E/blob/main/docs/CONTACT_AND_SUPPORT.md)を使用してください。 For private questions
+      concerning terms, Founder status, or privacy, use [Contact and Support](https://github.com/GeneSIS-Public/G.E.N.E/blob/main/docs/CONTACT_AND_SUPPORT.md).'
 - type: checkboxes
   id: precheck
   attributes:
