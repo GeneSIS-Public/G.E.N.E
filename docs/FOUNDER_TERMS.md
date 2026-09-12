@@ -12,8 +12,14 @@
 - **Last Updated:** 2026-09-11
 - **Revision Effective From:** 2026-09-11
 
-> **注記:** 本Packageに同梱された本日本語TXTを、本Revisionの日本語原文および正本として管理します。購入前確認用としてGitHub上に同一VersionのMarkdown Public Reference Copyを公開します。Formatting、見出し、URL表記その他の記述方式に差がある場合でも、内容上は同一の条件を示すものとして管理します。内容上の差異が生じた場合は、適用法令上許される範囲で本日本語TXTを優先します。英語版その他の翻訳版との間に解釈上の差異がある場合も、適用法令上許される範囲で本日本語版を優先します。
-> **v1.1 Revision Note:** 本Revisionは、Project: Code-NOAHとG.E.N.EにおけるPhase表現の関係、Founder成果物とSupplemental / Additional Deliverableの区分、およびPhase中に成立する成果物とFounder向け提供対象との境界を明確化するものです。本Revisionは、v1.0で既に成立したFounder資格、既に提供済みの内容、またはv1.0で明示されたFounder成果物の提供範囲を縮小することを目的とするものではありません。
+> **注記:**
+
+>本Packageに同梱された本日本語TXTを、本Revisionの日本語原文および正本として管理します。 購入前確認用としてGitHub上に同一VersionのMarkdown Public Reference Copyを公開します。 Formatting、見出し、URL表記その他の記述方式に差がある場合でも、内容上は同一の条件を示すものとして管理します。 内容上の差異が生じた場合は、適用法令上許される範囲で本日本語TXTを優先します。 英語版その他の翻訳版との間に解釈上の差異がある場合も、適用法令上許される範囲で本日本語版を優先します。
+
+
+> **v1.1 Revision Note:**
+
+> 本Revisionは、Project: Code-NOAHとG.E.N.EにおけるPhase表現の関係、Founder成果物とSupplemental / Additional Deliverableの区分、およびPhase中に成立する成果物とFounder向け提供対象との境界を明確化するものです。 本Revisionは、v1.0で既に成立したFounder資格、既に提供済みの内容、またはv1.0で明示されたFounder成果物の提供範囲を縮小することを目的とするものではありません。
 
 ## 第1条　目的とFounder Supportの性質
 
@@ -68,20 +74,22 @@ Project: Code-NOAH配下のG.E.N.E以外の成果物は、別途明示しない�
    G.E.N.E Alpha v1.0のEULAは、購入前確認用Copyとして次のURLから確認できます。
 
    EULA — 購入前・Download前確認用Copy：
+
    https://github.com/GeneSIS-Public/G.E.N.E/blob/main/docs/EULA.md
 
    G.E.N.E Applicationの利用条件は、正式配布Archive内のEULA.txtを正本として管理します。
 
    Founder Support Information：
+
    https://github.com/GeneSIS-Public/G.E.N.E/blob/main/docs/FOUNDER_SUPPORT_INFORMATION.md
 
-3. Founder Support商品の購入手続が完了した時点で、購入者は購入時点で提示された本書へ同意し、Project: Code-NOAH Phase 1 Founderとして参加したものと扱います。
+4. Founder Support商品の購入手続が完了した時点で、購入者は購入時点で提示された本書へ同意し、Project: Code-NOAH Phase 1 Founderとして参加したものと扱います。
 
-4. G.E.N.Eを無料で入手した者も、Phase 1 Founderの新規受付期間中にFounder Support商品を購入することで、後からFounderとして参加できます。
+5. G.E.N.Eを無料で入手した者も、Phase 1 Founderの新規受付期間中にFounder Support商品を購入することで、後からFounderとして参加できます。
 
-5. Founder Support商品を購入せず、BOOSTその他の経路だけで支援した場合は、金額にかかわらずFounder資格は成立しません。
+6. Founder Support商品を購入せず、BOOSTその他の経路だけで支援した場合は、金額にかかわらずFounder資格は成立しません。
 
-6. 未成年者が購入する場合は、法定代理人の同意を得てください。
+7. 未成年者が購入する場合は、法定代理人の同意を得てください。
 
 Founder資格は支援額の大小ではなく、本制度を選択し、購入によって参加意思を明示した事実に基づきます。
 
@@ -146,7 +154,8 @@ Phase 1 Founderへ本書に基づき提供するFounder成果物の範囲は、�
 2. Gene-ScrIbe ConSole Founder Editionの初代正式配布版
 3. Phase 1期間中に、GeneSISがFounder向け正式配布版として成立・公開した前2号の更新版および修正版
 
-Supplemental / Additional Deliverableの提供範囲は、各対象についてGeneSISが明示した内容に従います。別途明示しない限り、その対象の将来すべてのMajor Version、後継製品、永久Updateまたは無期限Supportを含みません。
+Supplemental / Additional Deliverableの提供範囲は、各対象についてGeneSISが明示した内容に従います。
+別途明示しない限り、その対象の将来すべてのMajor Version、後継製品、永久Updateまたは無期限Supportを含みません。
 
 次は、Founder Termsまたは個別のAdditional Deliverable案内で明示する場合を除き、Founder Supportの提供対象に含みません。
 
@@ -208,12 +217,11 @@ Founder向け正式配布版またはAdditional Deliverableとして成立した
 
 3. 照合が必要な場合、注文番号、商品名、おおよその購入時期その他の購入を確認できる情報の提示を求めることがあります。
 
-4. 照合情報は、Contact and Support
-https://github.com/GeneSIS-Public/G.E.N.E/blob/main/docs/CONTACT_AND_SUPPORT.mdに記載するGeneSIS公式窓口へ、必要最小限の範囲で送信してください。
+4. 照合情報は、[Contact and Support] - (https://github.com/GeneSIS-Public/G.E.N.E/blob/main/docs/CONTACT_AND_SUPPORT.md)に記載するGeneSIS公式窓口へ、必要最小限の範囲で送信してください。
 
-5. Password、2段階認証Code、Backup Code、秘密鍵または完全な決済情報を送信してはなりません。
+6. Password、2段階認証Code、Backup Code、秘密鍵または完全な決済情報を送信してはなりません。
 
-6. Founder証明書またはFounder番号を将来発行する場合でも、それらは記念的・管理的記録であり、Founder資格の正本をBOOTH購入記録から変更するものではありません。
+7. Founder証明書またはFounder番号を将来発行する場合でも、それらは記念的・管理的記録であり、Founder資格の正本をBOOTH購入記録から変更するものではありません。
 
 ## 第10条　重複購入、譲渡および共有
 
@@ -233,14 +241,11 @@ https://github.com/GeneSIS-Public/G.E.N.E/blob/main/docs/CONTACT_AND_SUPPORT.md�
 
 2. 支払額、支援回数またはFounder資格を理由として、Feedbackの技術的評価、修正順位または基本的なSupport範囲を変更しません。
 
-3. Feedback、不具合報告、一般問い合わせおよび非公開連絡は、Contact and Support
-https://github.com/GeneSIS-Public/G.E.N.E/blob/main/docs/CONTACT_AND_SUPPORT.mdに従って取り扱います。
+3. Feedback、不具合報告、一般問い合わせおよび非公開連絡は、[Contact and Support] - (https://github.com/GeneSIS-Public/G.E.N.E/blob/main/docs/CONTACT_AND_SUPPORT.md)に従って取り扱います。
 
-4. 未修正のSecurity問題または公開に適さないSecurity情報は公開場所へ投稿せず、Security
-https://github.com/GeneSIS-Public/G.E.N.E/securityから案内される非公開経路を使用してください。
+4. 未修正のSecurity問題または公開に適さないSecurity情報は公開場所へ投稿せず、[Security] - (https://github.com/GeneSIS-Public/G.E.N.E/security)から案内される非公開経路を使用してください。
 
-5. 個人情報の取扱いとFounder照合情報については、Privacy Notice
-https://github.com/GeneSIS-Public/G.E.N.E/blob/main/docs/PRIVACY_NOTICE.mdをご確認ください。
+5. 個人情報の取扱いとFounder照合情報については、[Privacy Notice] - (https://github.com/GeneSIS-Public/G.E.N.E/blob/main/docs/PRIVACY_NOTICE.md)をご確認ください。
 
 ## 第12条　Founderという呼称と権利の非付与
 
@@ -271,8 +276,7 @@ Founder Supportは、金融商品、出資契約、利益分配型投資また�
 
 3. Founder Supportへの参加または支援は、再配布、転売、剽窃、自作発言、権利表示の削除、利用条件で禁止される解析その他の行為を許可するものではありません。
 
-4. G.E.N.E Alpha v1.0の利用には、正式配布Archive内のEULA.txtが適用されます。GitHub上のEULA — 購入前・Download前確認用Copy
-https://github.com/GeneSIS-Public/G.E.N.E/blob/main/docs/EULA.mdは、購入前およびDownload前の確認用Copyです。
+4. G.E.N.E Alpha v1.0の利用には、正式配布Archive内のEULA.txtが適用されます。[GitHub上のEULA — 購入前・Download前確認用Copy] - (https://github.com/GeneSIS-Public/G.E.N.E/blob/main/docs/EULA.md)は、購入前およびDownload前の確認用Copyです。
 
 5. Founder成果物またはSupplemental / Additional Deliverableに個別のEULAまたは利用条件が付属する場合、その成果物の利用には当該EULAまたは利用条件が適用されます。
 
@@ -316,8 +320,7 @@ https://github.com/GeneSIS-Public/G.E.N.E/blob/main/docs/EULA.mdは、購入前�
 
 3. 掲載を希望しないことによって、Founder成果物、Supplemental / Additional Deliverableの提供またはFeedbackの評価で不利益を受けることはありません。
 
-4. Founder資格の確認、成果物提供、問い合わせ対応、謝辞掲載その他の情報取扱いは、Privacy Notice
-https://github.com/GeneSIS-Public/G.E.N.E/blob/main/docs/PRIVACY_NOTICE.mdに従います。
+4. Founder資格の確認、成果物提供、問い合わせ対応、謝辞掲載その他の情報取扱いは、[Privacy Notice] - (https://github.com/GeneSIS-Public/G.E.N.E/blob/main/docs/PRIVACY_NOTICE.md)に従います。
 
 5. GeneSISは、本制度の目的、Founderの一般の利益、法令、BOOTHの仕様、Security、成果物の提供方法またはProjectの進行に照らして必要かつ相当な場合、本書を合理的な範囲で変更することがあります。
 
@@ -331,8 +334,7 @@ https://github.com/GeneSIS-Public/G.E.N.E/blob/main/docs/PRIVACY_NOTICE.mdに従
 
 10. 本書の一部が無効または適用不能と判断された場合も、その他の条項は可能な範囲で引き続き有効とします。
 
-11. Founder Supportに関する問い合わせは、Contact and Support
-https://github.com/GeneSIS-Public/G.E.N.E/blob/main/docs/CONTACT_AND_SUPPORT.mdに記載するGeneSIS公式窓口を使用してください。
+11. Founder Supportに関する問い合わせは、[Contact and Support] - (https://github.com/GeneSIS-Public/G.E.N.E/blob/main/docs/CONTACT_AND_SUPPORT.md)に記載するGeneSIS公式窓口を使用してください。
 
 ## 購入前の重要事項
 
@@ -357,6 +359,7 @@ Founder Supportを購入する前に、次を確認してください。
 - Password、認証Code、Backup Code、秘密鍵または完全な決済情報をGeneSISへ送信しないでください。
 
 Founder Support Information：
+
 https://github.com/GeneSIS-Public/G.E.N.E/blob/main/docs/FOUNDER_SUPPORT_INFORMATION.md
 
 ---
