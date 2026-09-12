@@ -352,6 +352,7 @@ Before purchasing Founder Support, confirm that:
 - Do not send passwords, authentication codes, backup codes, private keys, or complete payment information to GeneSIS.
 
 Founder Support Information:
+
 https://github.com/GeneSIS-Public/G.E.N.E/blob/main/docs/FOUNDER_SUPPORT_INFORMATION_EN.md
 
 ---
