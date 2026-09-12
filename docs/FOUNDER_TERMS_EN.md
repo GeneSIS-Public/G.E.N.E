@@ -12,9 +12,13 @@
 - **Last Updated:** 2026-09-11
 - **Revision Effective From:** 2026-09-11
 
-> **Reference Translation:** The Japanese TXT included in the Founder Package is managed as the Japanese original and authoritative text for this Revision. This GitHub document is an English reference translation for pre-purchase review. If any inconsistency or difference in interpretation arises, the Japanese authoritative text governs to the extent permitted by applicable law.
+> **Reference Translation:** 
 
-> **v1.1 Revision Note:** This Revision clarifies the relationship between the Project: Code-NOAH Phase expression and the synchronized G.E.N.E Phase expression, distinguishes Founder Deliverables from Supplemental / Additional Deliverables, and clarifies the boundary between deliverables created during a Phase and items actually provided through Founder Support. This Revision is not intended to reduce Founder status already established under v1.0, content already provided, or the scope of Founder Deliverables expressly defined under v1.0.
+>The Japanese TXT included in the Founder Package is managed as the Japanese original and authoritative text for this Revision. This GitHub document is an English reference translation for pre-purchase review. If any inconsistency or difference in interpretation arises, the Japanese authoritative text governs to the extent permitted by applicable law.
+
+> **v1.1 Revision Note:** 
+
+>This Revision clarifies the relationship between the Project: Code-NOAH Phase expression and the synchronized G.E.N.E Phase expression, distinguishes Founder Deliverables from Supplemental / Additional Deliverables, and clarifies the boundary between deliverables created during a Phase and items actually provided through Founder Support. This Revision is not intended to reduce Founder status already established under v1.0, content already provided, or the scope of Founder Deliverables expressly defined under v1.0.
 
 ## Article 1 — Purpose and Nature of Founder Support
 
